@@ -1,0 +1,19 @@
+{
+  "name": "prestashop/ptsrelatedproducts",
+  "description": "PrestaBrain module ptsrelatedproducts",
+  "homepage": "http://www.prestabrain.com",
+  "license": "http://www.prestabrain.com",
+  "authors": [
+    {
+      "name": "Presta Brain",
+      "email": "prestabrain@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "type": "prestashop-module"
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<modules>
+	<module>
+		<label>Theme Control Panel</label>
+		<name>ptsthemepanel</name>
+		<prefix>PTS_CP_</prefix>
+		<queries>1</queries>	
+		<table>
+			<table>ptsthemepanel</table>
+		</table>
+	</module>	
+	<module>
+		<label>Ps Megamenu</label>
+		<name>psmegamenu</name>
+		<prefix>PS_MEGAMENU_</prefix>
+ 		<queries>1</queries>
+ 		<imgfolder>views/img</imgfolder>
+		<images>
+ 		</images>	
+ 		<tables>
+ 			<table>psmegamenu</table>
+ 			<table>psmegamenu_lang</table>	
+ 			<table>psmegamenu_shop</table>
+ 			<table>psmegamenu_widgets</table>
+ 		</tables>
+	</module>
+
+	<module>
+		<label>Pts Related Products Block</label>
+		<name>ptsrelatedproducts</name>
+		<prefix>PTS_CATEGORYPRODUCTS_</prefix>
+		<queries>0</queries>	
+	</module>
+
+	<module>
+		<label>Pts Map Locator</label>
+		<name>ptsmaplocator</name>
+		<prefix>PTSMAPL_</prefix>
+		<queries>0</queries>
+	</module>
+
+	<module>
+		<label>Ps Slider Layer for your homepage</label>
+		<name>pssliderlayer</name>
+		<prefix>PSSLIDERLAYER_</prefix>
+		<queries>1</queries>
+		<imgfolder>views/img</imgfolder>
+		<images>
+ 			<image>slider1.jpg</image>
+ 			<image>slider2.jpg</image>
+ 			<image>slider3.jpg</image>
+ 			<image>slider4.jpg</image>
+ 			<image>slider5.jpg</image>
+ 			<image>slider6.jpg</image>
+ 			<image>slider7.jpg</image>
+ 			<image>about-slider1.jpg</image>
+ 			<image>about-slider2.jpg</image>
+
+ 		</images>
+		<tables>
+			<table>pssliderlayer_groups</table>
+			<table>pssliderlayer_slides</table>
+			<table>pssliderlayer_slides_lang</table>
+		</tables>
+	</module>
+	<module>
+		<label>PS Blog Management</label>
+		<name>psblog</name>
+		<prefix>psblog_</prefix>
+		<queries>1</queries>
+		<tables>
+			<table>psblogcat</table>
+			<table>psblogcat_lang</table>
+			<table>psblogcat_shop</table>
+			<table>psblog_comment</table>
+			<table>psblog_blog</table>
+			<table>psblog_blog_lang</table>
+			<table>psblog_blog_shop</table>
+		</tables>
+		<imgfolder>views/img/b</imgfolder>
+			<images>
+	 			<image>b-blog-1.jpg</image>
+	 			<image>b-blog-2.jpg</image>
+	 			<image>b-blog-3.jpg</image>
+	 			<image>b-blog-4.jpg</image>
+	 			<image>b-blog-5.jpg</image>
+	 			<image>b-blog-6.jpg</image>
+	 			<image>b-blog-7.jpg</image>
+	 			<image>b-blog-8.jpg</image>
+	 		</images>
+	</module>
+
+	<module>
+		<label>Pts Bootstrap Testimonials</label>
+		<name>ptsbttestimonials</name>
+		<prefix>pts_test</prefix>
+		<queries>1</queries>		
+		<tables>
+ 			<table>ptsbttestimonials</table>
+ 			<table>ptsbttestimonials_lang</table>
+ 			<table>ptsbttestimonials_shop</table>
+ 		</tables>
+	</module>
+
+	<module>
+		<label>Ps Page Builder</label>
+		<name>pspagebuilder</name>
+		<prefix>pspagebuilder</prefix>
+		<queries>1</queries>
+		<tables>
+ 			<table>pagebuilderprofile</table>
+ 			<table>pagebuilderprofile_shop</table>
+ 		</tables>
+ 		<imgfolder>views/img</imgfolder>
+		<images>
+ 			<image>banner.png</image>
+ 			<image>banner1.jpg</image>
+ 			<image>banner2.jpg</image>
+ 			<image>banner3.jpg</image>
+ 			<image>banner4.jpg</image>
+ 			<image>banner5.jpg</image>
+ 			<image>banner6.jpg</image>
+ 			<image>banner7.jpg</image>
+ 			<image>banner8.jpg</image>
+
+ 			<image>banner-menu.jpg</image>
+ 			<image>cms_bg.jpg</image>
+
+ 			<image>icon-box.png</image>
+ 			<image>icon-chair.png</image>
+ 			<image>icon-chat.png</image>
+
+ 			<image>testimolials-bg.jpg</image>
+ 			<image>paypal.png</image>
+ 			<image>logo-footer.png</image>
+ 			<image>multiple-layouts.png</image>
+ 			<image>responsive-design.jpg</image>
+ 		</images>	
+	</module>
+</modules>

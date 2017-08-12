@@ -1,0 +1,352 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/* --- SCSS For Accordion --- */
+/* --- SCSS For Breadcrumb --- */
+/* --- SCSS For Buttons --- */
+/* --- SCSS For Call-to-action --- */
+/* --- SCSS For Content-slider --- */
+/*  */
+/* carousel-controls-v1 */
+/* carousel-controls-v2 */
+/* carousel-controls-v3 */
+/* Navigation Styles */
+/* carousel-indicators-v1 */
+/* carousel-indicators-v2 */
+/* carousel-indicators-v3 */
+/* carousel-indicators-v4 */
+/* carousel-indicators-v5 */
+/* carousel-indicators-v6 */
+/* --- SCSS For Counters --- */
+/* --- SCSS For Heading --- */
+/* --- SCSS For Icon-box --- */
+/* --- SCSS For Interactive-banner --- */
+/* --- SCSS For Latest-posts --- */
+/* latest posts */
+/* --- SCSS For List --- */
+/* variables for list */
+/* variables for list light */
+/* --- SCSS For Message --- */
+/* --- SCSS For Newsletter --- */
+/* --- SCSS For Piechart --- */
+/* --- SCSS For Pricing --- */
+/* --- SCSS For Process-steps --- */
+/* process-steps */
+/* --- SCSS For Service --- */
+/* variables for tab style1 using as base of tab */
+/* --- SCSS For Style-icon --- */
+/* Variables icons default */
+/* Variables icons bodered */
+/* Variables icons darker */
+/* Variables icons light */
+/* Variables icons plain */
+/* Variables icons for light style */
+/* Variables icons outline */
+/* Variables icons inverse */
+/* --- SCSS For Table --- */
+/* --- SCSS For Tabs --- */
+/* variables for tab style1 using as base of tab */
+/* tab style version 4 */
+/* tab style version 5 */
+/* tab style version 6 */
+/* --- SCSS For Testimonials --- */
+/* testimonials default */
+/* testimonials-v1 */
+/* testimonials light */
+/* --- SCSS For Typography --- */
+/* panel */
+.leading-blog .blog-item {
+  border-top: 0;
+}
+
+/* category */
+#blog-category {
+  margin-bottom: 30px;
+}
+
+.Recnet-blog .Recent-title {
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 15px;
+  font-size: 24px;
+  color: #000;
+}
+
+/* blog listing */
+.blogs-container .ps_sortPagiBar.bottom {
+  padding: 1.15385rem;
+  border: 1px solid #ebebeb;
+  background-color: #fbfbfb;
+  margin: 0;
+}
+.blogs-container .pagination.row {
+  display: block;
+}
+.blogs-container .pagination .page-list {
+  display: inline-block;
+  float: left;
+  padding: 0;
+}
+.rtl .blogs-container .pagination .page-list {
+  float: right;
+}
+.blogs-container .pagination .page-list li:first-child, .blogs-container .pagination .page-list li:last-child {
+  margin: 0 10px 0 0;
+}
+.rtl .blogs-container .pagination .page-list li:first-child, .rtl .blogs-container .pagination .page-list li:last-child {
+  margin: 0 0 0 10px;
+}
+.blogs-container .pagination .product-count {
+  float: right;
+  line-height: normal;
+  padding-top: 0.76923rem;
+}
+.rtl .blogs-container .pagination .product-count {
+  float: left;
+}
+
+.secondary-blog .blog-inner {
+  background: #fff none repeat scroll 0 0;
+  padding: 1.53846rem 2.07692rem;
+  bottom: 18%;
+}
+.secondary-blog .title {
+  font-size: 1.07692rem;
+  line-height: 1.69231rem;
+  margin: 0.76923rem 0;
+}
+.secondary-blog .blog-group-button {
+  border-top: 1px solid #f9f9f9;
+  margin-top: 1.15385rem;
+  padding-top: 0.76923rem;
+}
+.secondary-blog .blog-group-button .blog-meta {
+  font-size: 1rem;
+}
+.secondary-blog .blog-group-button .blog-meta .fa {
+  color: #000000;
+}
+.secondary-blog .blog-group-button .more .fa {
+  color: #000000;
+}
+.secondary-blog .blog-group-button .blog-author a {
+  color: #999999;
+}
+
+.blogs-container h3 {
+  margin-bottom: 0.76923rem;
+}
+
+.blogs-container h4 {
+  margin-bottom: 3px;
+  line-height: 1.84615rem;
+}
+
+.blogs-container .blog-image img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.blog-item {
+  padding: 0 0 3.84615rem 0;
+}
+.blog-item:hover .blog-inner {
+  bottom: 5%;
+}
+
+.blog-meta > span {
+  color: #999999;
+  margin: 0 5px;
+  text-transform: capitalize;
+}
+.blog-meta > span .fa {
+  margin-right: 5px;
+}
+.rtl .blog-meta > span .fa {
+  margin-left: 5px;
+  margin-right: inherit;
+}
+
+/* blog */
+.blog-detail > div {
+  margin-bottom: 3.07692rem;
+}
+.blog-detail .blog-image {
+  float: left;
+  margin: 0 30px 30px 0;
+}
+.rtl .blog-detail .blog-image {
+  float: right;
+}
+.rtl .blog-detail .blog-image {
+  margin: 0 0 30px 30px;
+}
+@media (max-width: 1199px) {
+  .blog-detail .blog-image {
+    width: 100%;
+    margin: 0 0 30px 0 !important;
+  }
+}
+.blog-detail .blog-title {
+  font-size: 2.30769rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 1.53846rem;
+}
+.blog-detail .blog-description {
+  font-size: 1.07692rem;
+  text-align: justify;
+  margin-bottom: 6.15385rem;
+}
+.blog-detail .social-wrap {
+  width: 100%;
+  margin: 1.53846rem 0;
+  padding: 1.53846rem 0;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blog-detail .social-wrap > * {
+  margin: 0 0.38462rem;
+}
+.blog-detail .social-wrap .social-heading {
+  margin-right: 0.76923rem;
+}
+.rtl .blog-detail .social-wrap .social-heading {
+  margin-left: 0.76923rem;
+  margin-right: inherit;
+}
+.blog-detail .blog-tags {
+  display: inline-block;
+  width: 100%;
+}
+.blog-detail .blog-tags > span {
+  font-weight: bold;
+  font-size: 1.07692rem;
+  margin-right: 1.15385rem;
+}
+.rtl .blog-detail .blog-tags > span {
+  margin-left: 1.15385rem;
+  margin-right: inherit;
+}
+.blog-detail .blog-video-code iframe {
+  max-width: 100%;
+}
+.blog-detail .blog-comment-block sup {
+  color: red;
+}
+.blog-detail .blog-comment-block #blog-localengine h3 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.blog-detail .blog-comment-block #blog-localengine .control-label {
+  float: left;
+  text-align: left;
+}
+.rtl .blog-detail .blog-comment-block #blog-localengine .control-label {
+  float: right;
+}
+.rtl .blog-detail .blog-comment-block #blog-localengine .control-label {
+  text-align: right;
+}
+.blog-detail .blog-comment-block #blog-localengine .comment-item {
+  padding: 2.30769rem;
+  margin-bottom: 2.30769rem;
+  border: 1px solid #ebebeb;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.blog-detail .blog-comment-block #blog-localengine .comment-item .comment-wrap {
+  margin: 0 0 0 6.15385rem;
+}
+.rtl .blog-detail .blog-comment-block #blog-localengine .comment-item .comment-wrap {
+  margin: 0 6.15385rem 0 0;
+}
+.blog-detail .blog-comment-block #blog-localengine .comment-item .comment-wrap .comment-meta {
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 0.76923rem;
+}
+.blog-detail .blog-comment-block #blog-localengine .comment-item .comment-wrap .comment-meta > span {
+  margin: 0 1.15385rem 0 0;
+}
+.rtl .blog-detail .blog-comment-block #blog-localengine .comment-item .comment-wrap .comment-meta > span {
+  margin: 0 0 0 1.15385rem;
+}
+.blog-detail .blog-comment-block #blog-localengine .comment-item .comment-wrap .comment-meta > span span {
+  color: #818796;
+  margin: 0 0 0 0.76923rem;
+  font-weight: normal;
+}
+.rtl .blog-detail .blog-comment-block #blog-localengine .comment-item .comment-wrap .comment-meta > span span {
+  margin: 0 0.76923rem 0 0;
+}
+.blog-detail .blog-comment-block #blog-localengine .form-group {
+  margin-bottom: 2.30769rem;
+}
+.blog-detail .blog-comment-block #blog-localengine .form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.blog-detail .blog-comment-block .btn-send {
+  padding: 0 1.15385rem;
+  height: 3.07692rem;
+  line-height: 3.07692rem;
+  min-width: 8.46154rem;
+  text-align: center;
+  color: #fff;
+  background-color: #86bde9;
+  font-weight: 600;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.blog-detail .blog-comment-block .btn-send i {
+  margin-right: 10px;
+  font-weight: 800;
+}
+.rtl .blog-detail .blog-comment-block .btn-send i {
+  margin-left: 10px;
+  margin-right: inherit;
+}
+.blog-detail .blog-comment-block .btn-send:hover {
+  background-color: #000000;
+}
+
+.ipts-captcha .comment-capcha-image {
+  margin-bottom: 1.15385rem;
+}

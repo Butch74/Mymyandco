@@ -1,0 +1,68 @@
+    @import "vars/home2";
+	@import "theme_variables";
+
+#logo-theme {
+    &.logo-theme {
+        a {
+            background-image: url('../#{$image-theme-base-path}logo_home2.png');
+        }
+    }
+}
+.header2{
+    #header-main {
+        .container .row-inner{
+            .header-right .shopping_cart {
+                .cart-icon{
+                    color: #fff;
+                    background-color: #5AB210;
+                }
+                .mini-cart-count-box{
+                    color: #fff;
+                    background-color: #5AB210;
+                }
+                
+            }
+        }
+    }
+}
+#pts-verticalmenu .title_block{
+    color: #fff;
+    &:before{
+        color: #fff;
+    }
+}
+#footer{
+    .iconbox-content{
+        background-color:#f7f7f7;
+        [class^="col-lg-"]{
+            .feature-box{
+                &:before{
+                    background-color: #eaeaea;
+                }
+            }
+        }
+    }
+    .footer-center{
+        background-color: #fff;
+        color: #666;
+        .title_block{
+            color: #363636;
+        }
+        .nav-links li a{
+            color: #666;
+        }
+    }
+}
+#newsletter_block_left{
+
+     h1{
+        span{
+            color: #fff;
+        }
+        
+     }
+}
+
+#social_block span{
+    color: #fff;
+}

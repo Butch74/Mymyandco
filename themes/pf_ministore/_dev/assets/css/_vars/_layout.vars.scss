@@ -1,0 +1,117 @@
+
+// Box Modules 
+// ========================================================================
+$block-module-margin-bottom: 			$grid-gutter-width-base !default;
+$block-module-padding  :					20px!default;
+$block-module-border-color: 			0 !default;
+
+$block-module-heading-border: 					rgba(0, 0, 0, 0.15) !default;
+$block-module-heading-transform:        inherit !default;
+$block-module-heading-line-height:      rem(32px) !default;
+$block-module-heading-font-family:    	$font-family-secondary !default;
+$block-module-heading-bg:								transparent !default;
+$block-module-heading-padding: 					0 0 rem(30px) 0 !default;
+$block-module-heading-font-size:				rem(32px) !default;
+$block-module-heading-font-weight:			400 !default;
+$block-module-heading-color:						$text-color-secondary !default;
+
+
+
+/*  
+ * LAYOUT VARIABLES 
+ */
+
+// Header
+// ========================================================================
+$header-bg:  									#fff !default;
+$header-margin:  				    	0 !default;
+$header-padding:  				    0 !default;
+
+
+$header-logo-margin:  				0 !default;
+$header-logo-height:  				27px !default;
+$header-logo-width:  					154px !default;
+
+
+// Topbar 
+// ========================================================================
+$topbar-bg: 									#fff !default;
+$topbar-color: 								#000 !default;
+$topbar-font-size: 						rem(13px) !default;
+$topbar-font-family:					$font-family-secondary !default;
+$topbar-font-weight:          400 !default;
+$topbar-link-color: 					#818796 !default;
+$topbar-link-hover-color: 		$theme-color-primary !default;
+
+$topbar-padding: 							10px 0 !default;
+$topbar-height:               rem(43px) !default;
+$topbar-border:               1px solid #444 !default;
+
+
+// Main menu 
+
+$mainnav-bg: 									#131313 !default;
+$mainnav-inner-bg:						transparent !default;
+
+
+
+
+// Footer
+// ========================================================================
+
+$footer-bg: 									transparent !default;
+$footer-color: 								#6c7d88 !default;
+
+
+$footer-heading-font-family: 	$font-family-secondary !default;
+$footer-heading-font-size: 		rem(13px)  !default;
+$footer-heading-font-weight: 	700 !default;
+$footer-heading-color: 				$text-color-secondary !default;
+$footer-heading-padding:      0 !default;
+
+$footer-link-color: 					#6c7d88 !default;
+$footer-link-hover-color: 		$theme-color-primary !default;
+$footer-font-size:   	 				$font-size-base !default;
+     
+$footer-content-padding:      rem(15px) !default;
+$footer-content-margin:       0 !default;
+$footer-list-padding:         rem(10px) 0 !default;
+$footer-margin:               rem(20px) !default;
+
+ /////// footer top
+$footer-top-outside-border:		0 !default;
+$footer-top-outside-bg :			#ffd25b !default;
+$footer-top-bg: 			 				transparent !default;
+$footer-top-padding: 			 		0 !default;
+$footer-top-color:						#fff !default;
+$footer-top-content-padding:	rem(70px) 0 0px !default;
+$footer-top-content-margin:		    0 !default;
+$footer-top-color-hover:			$theme-color-primary !default;	
+$footer-top-border:						transparent !default;
+
+/////// footer center 
+$footer-center-outside-bg :				transparent !default;
+$footer-center-bg: 			 					transparent !default;
+$footer-center-content-padding:		rem(80px) 0 rem(40px)!default;
+$footer-center-content-margin:		0 !default;
+$footer-center-color:							$text-color-primary!default;
+$footer-center-color-hover:				$theme-color-primary !default;	
+
+/////// footer bottom 
+$footer-bottom-outside-bg :				transparent !default;
+$footer-bottom-bg: 			 					transparent !default;
+$footer-bottom-content-padding:		30px 0 0!default;
+$footer-bottom-content-margin:		0 !default;
+$footer-bottom-color:							$footer-link-color !default;
+$footer-bottom-color-hover:				$footer-link-hover-color!default;	
+
+// Powered By / Copyright
+// ========================================================================
+$power-outside-bg:       			transparent !default;
+$power-bg: 										transparent!default;
+$power-color:                 #000 !default;
+$power-link-color:            #6c7d88!default;
+$power-link-hover-color:      $theme-color-primary !default;
+$power-padding:               rem(20px) 0 rem(50px) !default;
+$power-font-family  : 				$font-family-primary !default;
+$power-border-color:					#ebebeb !default;

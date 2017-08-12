@@ -1,0 +1,144 @@
+/**
+ * BASE CSS STYLES
+ */
+html {
+    margin: 0;
+    padding: 0;
+    @include media-breakpoint-up(lg){
+      overflow-x: hidden;
+    }
+}
+img {
+  max-width: 100%;
+}
+.tree,
+.tree-menu {  
+        > ul > li {
+            @include size(100%,auto);
+            position: relative;
+            &.active {
+                > a {
+                    color: $theme-color-primary;
+                }
+            }
+
+        ul {
+           // display: none;
+           li {
+            position: relative;
+            @include rtl-padding-right (0);
+            &.last {
+              padding-bottom: 0;
+            }
+           }
+        }
+            a.active {
+                font-weight: bold;
+                color: $theme-color-primary;
+            + ul {
+                display: block;
+                padding: 0 0 10px 10px;
+            }
+        }
+        ul > li {
+            > a {
+                    
+                &:hover{
+                }
+                &.active {
+                    font-weight: bold;
+                    color:$megamenu-sub-link-hover-color;  
+                }
+            }
+
+        }
+    }
+}
+a:hover{
+    color: $theme-color;
+    text-decoration: none;
+    outline: none;
+}
+ul.circle {
+  list-style-type: circle; 
+  @include rtl-margin-left(15px);
+}
+ul.square {
+  list-style-type: square;
+  @include rtl-margin-left(15px);
+}
+ul.decimal {
+  list-style-type: decimal;
+  @include rtl-margin-left(15px);
+}
+ul.georgian {
+  list-style-type: georgian;
+  @include rtl-margin-left(15px);
+}
+ul.cjk-ideographic {
+  list-style-type: cjk-ideographic;
+  @include rtl-margin-left(15px);
+}
+ul.kannada {
+  list-style-type: kannada;
+  @include rtl-margin-left(15px);
+}
+ul.upper-roman {
+  list-style-type: upper-roman;
+  @include rtl-margin-left(15px);
+}
+ul.lower-alpha {
+  list-style-type: lower-alpha;
+  @include rtl-margin-left(15px);
+}
+ul.arrow {
+  li a {
+    padding: 0 0 0 12px;
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+    @include transition(all 0.2s ease-in-out 0s);
+    &:before {
+      content: "\f105";
+      font-family: $font-icon;
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: block;
+      font-size: 11px;
+      color: #979797;
+    }
+    &:hover {
+      @include rtl-margin-left(5px);
+      &:before {
+        color: $theme-color-primary;
+      }
+    }
+  }
+}
+ul.list-circle {
+  li {
+    margin-bottom: 10px;
+    @include rtl-padding-left(20px);
+    position: relative;
+    &:before {
+      background-color: $theme-color-primary;
+      @include border-radius(6px);
+      content: "";
+      @include rtl-left(0);
+      position: absolute;
+      top: 8px;
+      @include size(6px,6px);
+    }
+  }
+}
+.timeWork {
+  li {
+    clear: both;
+    display: block;
+    padding: 8px 0;
+  }
+} 
+.box-content {
+  padding: $grid-gutter-width-base/2 0;
+}

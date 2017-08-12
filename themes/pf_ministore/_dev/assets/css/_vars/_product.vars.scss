@@ -1,0 +1,71 @@
+ 
+
+// product label
+$product-label-border-color:          #7672cf !default;
+$product-label-color :                #fff !default;
+$product-label-font-size  :           11px !default;
+$product-label-font-family:           $font-family-secondary !default;
+$product-label-font-weight:           700!default;
+
+$product-label-new-bg:                #f3d351 !default;
+$product-label-new-border-color:      #f3d351 !default;
+
+$product-label-online-only-bg:                #F6574B !default;
+$product-label-new-border-color:      #f3d351 !default;
+
+$product-label-sale-bg:               #818796 !default;
+$product-label-sale-border-color:     #818796 !default;
+$product-label-sale-text-color:       #fff !default;
+
+
+
+//---------- Product Elements
+
+$product-price-color:				#000 !default;
+$product-reduced-price:								$theme-color-secondary !default;
+
+$product-price-font-family:         $font-family-primary !default;
+$product-price-font-size:           14px !default;
+$product-price-font-weight:         500 !default;
+
+
+$product-new-price-color:            #000 !default;
+$product-new-price-bg-color:	    	#ff5757 !default;
+$product-new-price-font-size:       $product-price-font-size !default;
+$product-new-price-weight:          $product-price-font-weight!default;
+
+$product-special-price-bg-color:	#ff5757 !default;
+$product-special-price-color:			#fff !default;
+$product-special-price-size:			$product-price-font-size !default;
+
+$product-old-price-color:					#a2a7b5 !default;
+
+
+
+
+
+// Product Block
+// ========================================================================
+$product-size:                      $font-size-base !default;
+$product-bg-color:                  #fff !default;
+$product-margin:                    35px;
+$product-border-color : 						1px solid transparent !default;
+$product-content-bg: 								transparent !default;
+$product-content-padding:						30px !default;
+$product-container-border:					1px solid transparent !default;
+$product-container-bg:              #fff !default;
+
+
+$product-link-color: 								#222 !default;
+$product-link-hover-color: 					$theme-color !default;
+$product-name-color: 								#000 !default;
+$product-name-hover-color:          $theme-color !default;
+$product-name-line-height:          rem(18px) !default;
+$product-name-font-family:          $font-family-primary !default;
+$product-name-font-size: 						rem(16px) !default;
+$product-name-font-weight: 					500 !default;
+$product-name-text-decoration:      capitalize !default;
+$product-padding:                   0 !default;
+
+
+

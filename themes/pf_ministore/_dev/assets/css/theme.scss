@@ -1,0 +1,199 @@
+@import url('//fonts.googleapis.com/css?family=Work+Sans');
+@import url('//fonts.googleapis.com/css?family=Raleway:400,700');
+
+@import "_font-awesome";
+@import "../../theme_variables";
+@import "partials/_variables";
+@import "_bootstrap-touchspin/dist/_jquery.bootstrap-touchspin";
+@import "mixins/_app";
+
+@import "_bootstrap";
+@import "partials/_mixins";
+@import "partials/_fonts";
+@import "partials/_commons";
+@import "_app/_base";
+@import "_app/_layout";
+@import "_app/_block";
+@import "_app/_modules";
+@import "_app/_elements";
+@import "_app/_product";
+@import "_app/_animation";
+@import "_app/_header";
+@import "components/_drop-down";
+@import "components/_search-widget";
+@import "components/_mainmenu";
+@import "components/_megamenu";
+@import "components/_pspagebuilder";
+//@import "components/_verticalmenu";
+@import "components/_checkout";
+@import "components/_customer";
+@import "components/_imageslider";
+//@import "components/featuredproducts";
+@import "components/_custom-text";
+@import "components/_categories";
+@import "components/_products";
+@import "components/_cart";
+@import "components/_block-reassurance";
+@import "components/_quickview";
+@import "components/_stores";
+@import "components/_footer";
+@import "components/_contact";
+@import "components/_errors";
+@import "components/_customization-modal";
+
+/*** WRAPPER ***/
+#wrapper {
+  .banner {
+    margin-bottom: rem(24px);
+    display: block;
+    img {
+      box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+
+/*** MAIN ***/
+#main {
+  .page-header {
+    margin-bottom: rem(25px);
+  }
+  .page-content {
+    h6 {
+      margin-bottom: rem(18p);
+    }
+    #notifications {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+  }
+  .page-footer {
+    margin-bottom: rem(25px);
+  }
+}
+#notifications {
+  ul {
+    margin-bottom: 0;
+  }
+}
+/*** FOOTER ***/
+
+/*** Responsive part ***/
+@include media-breakpoint-down(sm) {
+  #wrapper {
+    box-shadow: none;
+  }
+  #checkout-cart-summary {
+    float: none;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  section.checkout-step {
+    width: 100%;
+  }
+  .default-input {
+    min-width: 100%;
+  }
+  label {
+    clear: both;
+  }
+  #products .product-miniature,
+  .featured-products .product-miniature {
+    margin: 0 auto;
+  }
+  .block-contact {
+    padding-left: 0.9375rem;
+    border: none;
+  }
+  .menu,
+  .dropdown-item {
+    padding-left: 0;
+  }
+  #footer {
+    padding-top: rem(8px);
+  }
+}
+@include media-breakpoint-down(md) {
+  
+  .container {
+    max-width: 100%;
+  }
+  #header .logo {
+    width: auto;
+  }
+  #products .product-miniature,
+  .featured-products .product-miniature {
+    margin: 0 auto;
+  }
+  .sub-menu {
+    left: 0;
+    min-width: 100%;
+  }
+  #blockcart-modal .product-image {
+    width: 100%;
+    display: block;
+    max-width: 250px;
+    margin: 0 auto rem(15px);
+  }
+  #blockcart-modal .cart-content {
+    padding-left: 0;
+  }
+  #blockcart-modal .product-name,
+  #product-availability {
+    margin-top: $small-space;
+  }
+  .block-category .category-cover {
+    position: relative;
+    text-align: center;
+  }
+  
+  .block-category {
+    padding-bottom: 0;
+  }
+}
+.position-static {
+      position: static;
+    }
+//sitemap
+.sitemap {
+  .tree {
+    li ul {
+      padding-left: 15px;
+      @include rtl-border-left(1px dotted #ccc);
+    }
+  }
+}
+// Live Theme Editor
+.themecollection .btn-switchskin {
+  background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: block;
+    height: rem(200px);
+    width: rem(138px);
+    cursor: pointer;
+    margin-bottom: rem(16px);
+    margin-right: rem(6px);
+    background-position: center 0;
+    @include transition(0.9s all ease 0s);
+    &:hover{
+      background-position: center 100% !important;
+    }
+    &.theme-default{
+      background-image: url("../img/skins/home_1.jpg");
+    }
+    &.theme-home2{
+      background-image: url("../img/skins/home_2.jpg");
+    }
+    &.theme-home3{
+      background-image: url("../img/skins/home_3.jpg");
+    }
+}
+.pts-paneltool{
+  @include media-breakpoint-down(lg){
+    display: none !important;
+  }
+}
+
+.ui-widget-content{
+  z-index: 9999 !important;
+}

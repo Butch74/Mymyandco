@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+</config>
+<tables>
+<table>psblogcat</table>
+<table>psblogcat_lang</table>
+<table>psblogcat_shop</table>
+<table>psblog_comment</table>
+<table>psblog_blog</table>
+<table>psblog_blog_lang</table>
+<table>psblog_blog_shop</table>
+</tables>
+
+<queries></queries>
+
+</module>

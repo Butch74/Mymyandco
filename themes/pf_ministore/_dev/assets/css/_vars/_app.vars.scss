@@ -1,0 +1,126 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+$app-brand-prefix        : pts !default;
+/**
+ *   Blocks Layout Selectors 
+ */
+$block-prefix 			 : block!default;
+$block-selector          : block !default;
+$block-heading-selector  : title_block !default;
+$block-content-selector  : block_content !default;
+/**
+ * Product Item Selectors
+ */
+$products-container-selector : products_block !default;
+$products-row-selector 		 : products-row !default;
+$products-col-selector 		 : product-col !default;
+
+//------- Path Variables
+//$image-path:                   "../img/elements/"!default;
+$image-theme-base-path:        "../img/"!default;
+
+/***********************************************************************/
+// some basic colors
+$yellow:                  					#f99b17 !default;
+$blue:                              #6087D2 !default;  // Skin blue
+$green:                 						#29C76A !default;  // Skin Green
+$red:                   						#eb5454 !default;  
+$pink:                  						#c3325f !default;
+$white:			 				    						#FFFFFF !default;
+$black:							    						#000000 !default;
+$darkslategrey:                     #283240 !default;
+$cyandark:   												#4e4d49 !default;
+$orange:                						#df995e !default;
+$aqua: 															#75aab8 !default;
+$turquoise:                         #4ACFD4 !default; // label new
+$nav-border-color-hover:            #e2e2e2 !default;
+$wild-sand:                         #ffffff !default;  
+$silver:                            #f5f5f5 !default;  
+
+
+//------- Themes colors 
+$red-light:            				#ff9999!default;
+$yellow-light:           			#ffdc73!default;
+$nocolor:							transparent!default;
+
+
+// Variables paths 
+// ========================================================================
+
+$font-family:			 			 			 $font-family-base !default;
+$font-family-secondary :       $font-family-base !default;
+$font-family-tertiary  :       $font-family-base !default;
+$font-family-senary    : 		 	 $font-family !default;
+$font-family-septenary : 			 $font-family !default; 
+
+
+$font-icon: 			             "Material Icons" !default;
+$font-icon-secondary: 			    "FontAwesome" !default;
+$font-tab-family :  			     $font-family !default;
+$font:						  		 				normal 14px/24px $font-family!default;
+$font-custom:                 $font-family!default;
+
+
+
+
+//////////////////// Variables defined for Themes + Skins ////////////////
+
+$theme-color:  				        #2bc9b4 !default;
+$theme-color-secondary:       		#888888 !default;
+$theme-color-primary :				#444444 !default;
+$theme-color-tertiary:        		#000000 !default;
+
+
+$text-highlight:              $theme-color !default;// using variable  for Theme  Skin
+
+
+
+$font-body-family	   : $font-family !default;
+$font-headding-family  : $font-custom !default;
+ 
+$border-color   : #ebebeb !default;
+$border-box     :#999!default;
+
+$table-bg-color	:  #ebebeb !default;
+
+// Variables
+// --------------------------------------------------
+$rtl-left : left!default;
+$rtl-right : right!default;
+
+//custombootstrap
+// Extra small screen / phone
+//** Deprecated `$screen-xs` as of v3.0.1
+$screen-xs:                  480px !default;
+//** Deprecated `$screen-xs-min` as of v3.2.0
+$screen-xs-min:              $screen-xs !default;
+//** Deprecated `$screen-phone` as of v3.0.1
+$screen-phone:               $screen-xs-min !default;
+
+// Small screen / tablet
+//** Deprecated `$screen-sm` as of v3.0.1
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+//** Deprecated `$screen-tablet` as of v3.0.1
+$screen-tablet:              $screen-sm-min !default;
+
+// Medium screen / desktop
+//** Deprecated `$screen-md` as of v3.0.1
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+//** Deprecated `$screen-desktop` as of v3.0.1
+$screen-desktop:             $screen-md-min !default;
+
+// Large screen / wide desktop
+//** Deprecated `$screen-lg` as of v3.0.1
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+//** Deprecated `$screen-lg-desktop` as of v3.0.1
+$screen-lg-desktop:          $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+

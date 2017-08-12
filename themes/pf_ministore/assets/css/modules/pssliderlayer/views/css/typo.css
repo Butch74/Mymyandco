@@ -1,0 +1,1577 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+@import url(//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
+/* line 33, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.layerslider-wrapper {
+  position: relative;
+  z-index: 9;
+}
+
+/* line 38, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.rev_slider {
+  position: relative;
+  overflow: hidden;
+  z-index: 9;
+}
+
+/* line 44, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.bannercontainer {
+  position: relative;
+  margin: 0px auto;
+  overflow: hidden;
+}
+/* line 49, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.bannercontainer .banner-fullwidth {
+  width: 100% !important;
+}
+/* line 53, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.bannercontainer .fullwidthbanner {
+  overflow: hidden !important;
+  padding: 0;
+  position: relative;
+}
+/* line 59, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.bannercontainer .banner-fullwidth {
+  width: 100% !important;
+}
+
+/* line 63, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-hide-revslider {
+  visibility: hidden !important;
+  display: none !important;
+}
+
+/* line 67, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption {
+  z-index: 1;
+}
+/* line 69, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.tp-hidden-caption {
+  visibility: hidden !important;
+  display: none !important;
+}
+/* line 73, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.big_white {
+  position: absolute;
+  text-shadow: none;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  padding: 1px 0 3px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-family: Raleway;
+}
+/* line 88, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.big_white_border {
+  position: absolute;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  padding: 10px 25px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  color: #FFFFFF;
+  letter-spacing: 0px;
+  font-family: Raleway;
+  border: 3px solid #FFFFFF;
+}
+/* line 103, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.big_orange {
+  position: absolute;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  padding: 0px 4px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  letter-spacing: -1.5px;
+  color: #FFFFFF;
+  background-color: #fb7354;
+}
+/* line 117, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.big_black {
+  position: absolute;
+  text-shadow: none;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 38px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  color: #6c8dae;
+}
+/* line 129, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.big_black_light {
+  position: absolute;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 38px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  color: #222222;
+}
+/* line 141, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.medium_grey {
+  position: absolute;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+  padding: 2px 4px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  color: #bbbbbb;
+}
+/* line 154, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.small_text {
+  position: absolute;
+  color: #FFFFFF;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  text-align: right;
+}
+/* line 59, ../../../../../../_dev/css/mixins/_app.scss */
+.rtl .tp-caption.small_text {
+  text-align: left;
+}
+/* line 167, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.medium_text {
+  position: absolute;
+  color: #FFFFFF;
+  text-shadow: none;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  text-shadow: none;
+  text-align: center;
+}
+/* line 180, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.large_text {
+  position: absolute;
+  color: #eeeeee;
+  text-shadow: none;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 36px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+}
+/* line 196, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.large_black_text {
+  position: absolute;
+  color: #000000;
+  text-shadow: none;
+  font-weight: 100;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+}
+/* line 208, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.very_large_text {
+  position: absolute;
+  color: #FFFFFF;
+  text-shadow: none;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0px;
+}
+/* line 222, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.very_large_black_text {
+  position: absolute;
+  color: #000000;
+  text-shadow: none;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 68px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+}
+/* line 234, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.bold_red_text {
+  position: absolute;
+  color: #d31e00;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+}
+/* line 246, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.bold_brown_text {
+  position: absolute;
+  color: #a04606;
+  text-shadow: none;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+}
+/* line 258, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.bold_green_text {
+  position: absolute;
+  color: #5b9830;
+  text-shadow: none;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0px;
+  border-width: 0px;
+  border-style: none;
+  white-space: nowrap;
+}
+/* line 271, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.very_big_red {
+  position: absolute;
+  color: #fd020b;
+  text-shadow: none;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0px;
+  border-width: 0px;
+  text-transform: uppercase;
+  border-style: none;
+  padding: 0px 4px;
+  padding-top: 1px;
+  background-color: transparent;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* line 287, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.very_big_white {
+  position: absolute;
+  color: #fff;
+  text-shadow: none;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 80px;
+  margin: 0px;
+  border-width: 0px;
+  text-transform: normal;
+  border-style: none;
+  padding: 0;
+  padding-top: 1px;
+  background-color: transparent;
+  font-family: Raleway;
+}
+/* line 303, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.very_big_black {
+  position: absolute;
+  color: #000000;
+  text-shadow: none;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 90px;
+  margin: 0px;
+  border-width: 0px;
+  text-transform: uppercase;
+  border-style: none;
+  white-space: nowrap;
+  padding: 0px 4px;
+  padding-top: 1px;
+  background-color: transparent;
+  font-family: Raleway;
+}
+/* line 320, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.very_big_blue {
+  position: absolute;
+  color: #44c4cc;
+  text-shadow: none;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0px;
+  border-width: 0px;
+  text-transform: uppercase;
+  border-style: none;
+  white-space: nowrap;
+  padding: 0px 4px;
+  padding-top: 1px;
+  background-color: transparent;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* line 337, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.larger_white {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  padding: 0;
+  font-family: Raleway;
+}
+/* line 346, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.larger_gray {
+  position: absolute;
+  color: #535763;
+  font-size: 48px;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* line 355, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.larger_black {
+  position: absolute;
+  color: #000;
+  font-size: 48px;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* line 364, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.larger_green {
+  position: absolute;
+  color: #97b415;
+  font-size: 48px;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* line 373, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.larger_orange {
+  position: absolute;
+  color: #ff8200;
+  font-size: 48px;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* line 382, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.medium_yellow {
+  position: absolute;
+  color: #ffcc00;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: block;
+}
+/* line 392, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.medium_white {
+  color: #fff;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  position: absolute;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* line 401, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.medium_orange {
+  color: #ff8200;
+  text-shadow: none;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  position: absolute;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+/* line 412, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.medium_black {
+  color: #666666;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  position: absolute;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* line 421, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.small_white {
+  color: #fff;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  position: absolute;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: normal;
+}
+/* line 431, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.small_gray {
+  color: #535763;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  position: absolute;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: normal;
+}
+/* line 441, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.small_black {
+  color: #000;
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  position: absolute;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+}
+/* line 451, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.light_black {
+  color: #666;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  position: absolute;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* line 460, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.white {
+  color: #fff;
+  text-shadow: none;
+  font-weight: 300;
+  line-height: 18px;
+  position: absolute;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/* line 468, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.black {
+  color: #000000;
+  text-shadow: none;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 475, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.bg_grey {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-shadow: none;
+  font-weight: 600;
+  line-height: 14px;
+  position: absolute;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
+}
+/* line 488, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption .red {
+  color: #ee6262;
+  font-weight: 700;
+}
+/* line 492, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption .orange {
+  color: #ffe345;
+}
+/* line 495, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption .pure {
+  color: #f09500;
+}
+/* line 498, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption .pink {
+  color: #ff1c84;
+}
+/* line 501, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption .text_center {
+  text-align: center;
+}
+/* line 504, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption hr {
+  border: 1px solid #fff;
+  width: 160px;
+  height: 0;
+  margin: 0;
+}
+/* line 509, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.border-grey hr {
+  border-color: #bbbbbb;
+}
+/* line 512, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.noshadow {
+  text-shadow: none;
+  color: #eee;
+  width: 500px;
+  white-space: normal !important;
+  font-size: 26px;
+}
+
+/* line 521, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp_inner_padding {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-height: none !important;
+}
+
+/* line 526, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-button {
+  padding: 0 15px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  height: 35px;
+  cursor: pointer;
+  color: #FFFFFF !important;
+  font-size: 15px;
+  line-height: 35px !important;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+/* line 537, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-slideshow {
+  line-height: 25px !important;
+  font-size: 11px !important;
+  border: 1px solid transparent;
+  background: transparent;
+  position: relative;
+  padding: 10px 25px !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  width: 160px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 550, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-slideshow:hover {
+  cursor: pointer;
+}
+
+/* line 554, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-outline-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+/* line 558, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-outline-conversion {
+  border-color: #293f85;
+  color: #293f85;
+}
+
+/* line 562, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-white {
+  background-color: #fff;
+  color: #353535;
+}
+
+/* line 566, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-blue {
+  background-color: #0189d2;
+  color: #fff;
+}
+
+/* line 570, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-yellow {
+  background-color: #ffd733;
+  color: #fff;
+}
+
+/* line 574, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-green {
+  background-color: #a4c72c;
+  color: #fff;
+}
+
+/* line 578, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-orange {
+  background-color: #ff8200;
+  color: #fff;
+}
+
+/* line 582, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-black {
+  background-color: #000;
+  color: #fff;
+}
+
+/* line 586, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-red {
+  background-color: #e43636;
+  color: #fff;
+}
+
+/* line 590, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-conversion {
+  background-color: #c99947;
+  color: #fff;
+}
+
+/*  btn-slideshow COLORS */
+/* line 595, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.purchase:hover, .button:hover, .button.big:hover {
+  background-position: bottom, 15px 11px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* line 603, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+  a.button {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+}
+@media (max-width: 575px) {
+  /* line 610, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+  a.button {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+}
+/* line 616, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn.yellow {
+  background: #ffcc00;
+  color: #000;
+}
+/* line 620, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn.btn-green {
+  background-color: #8ac53f;
+  color: #fff;
+}
+/* line 624, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn.blue {
+  background-color: #0866e4;
+  color: #fff;
+}
+
+/* line 629, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.text-hot {
+  background-color: #ff8200;
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 70px;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* line 641, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.text-new {
+  background-color: #3fc843;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 70px;
+  height: 70px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 70px;
+  text-align: center;
+  font-weight: 700;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* line 655, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+  .btn-slideshow {
+    padding: 4px 8px 3px;
+    line-height: 25px !important;
+    font-size: 11px !important;
+    font-weight: normal;
+  }
+
+  /* line 662, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+  a.btn-slideshow {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+  }
+}
+@media (max-width: 575px) {
+  /* line 670, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+  .btn-slideshow {
+    padding: 2px 5px 2px;
+    line-height: 20px !important;
+    font-size: 10px !important;
+  }
+
+  /* line 676, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+  a.btn-slideshow {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+  }
+}
+/*  btn-slideshow COLORS */
+/* line 684, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-slideshow.green, .btn-slideshow:hover.green, .purchase.green, .purchase:hover.green {
+  background-color: #f44336;
+}
+
+/* line 688, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-slideshow.blue, .btn-slideshow:hover.blue, .purchase.blue, .purchase:hover.blue {
+  background-color: #1d78cb;
+}
+
+/* line 692, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-slideshow.red, .btn-slideshow:hover.red, .purchase.red, .purchase:hover.red {
+  background-color: #f44336;
+}
+
+/* line 696, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-slideshow.orange, .btn-slideshow:hover.orange, .purchase.orange, .purchase:hover.orange {
+  background-color: #ff7700;
+}
+
+/* line 700, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-slideshow.darkgrey, .btn-slideshow.grey, .btn-slideshow:hover.darkgrey, .btn-slideshow:hover.grey, .purchase.darkgrey, .purchase:hover.darkgrey {
+  background-color: #555;
+}
+
+/* line 704, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.btn-slideshow.lightgrey, .btn-slideshow:hover.lightgrey, .purchase.lightgrey, .purchase:hover.lightgrey {
+  background-color: #888;
+}
+
+/* SET THE ANIMATION EVEN MORE SMOOTHER ON ANDROID  */
+/* line 709, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-simpleresponsive .slotholder *, .tp-simpleresponsive img {
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+}
+
+/* SOME CAPTION MODIFICATION AT START  */
+/* line 716, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+}
+
+/* line 725, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-simpleresponsive img {
+  max-width: none;
+}
+
+/*  IE8 HACKS */
+/* line 730, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.noFilterClass {
+  filter: none !important;
+}
+
+/* SHADOWS  */
+/* line 735, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bannershadow {
+  margin-left: auto;
+  margin-right: auto;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+/* line 744, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bannershadow.tp-shadow1 {
+  background: url(../img/front_img/shadow1.png) no-repeat;
+  background-size: 100%;
+  width: 890px;
+  height: 60px;
+  bottom: -30px;
+}
+
+/* line 752, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bannershadow.tp-shadow2 {
+  background: url(../img/front_img/shadow2.png) no-repeat;
+  background-size: 100%;
+  width: 890px;
+  height: 110px;
+  bottom: -60px;
+}
+
+/* line 760, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bannershadow.tp-shadow3 {
+  background: url(../img/front_img/shadow3.png) no-repeat;
+  background-size: 100%;
+  width: 890px;
+  height: 60px;
+  bottom: -60px;
+}
+
+/* FULLSCREEN VIDEO */
+/* line 769, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.caption.fullscreenvideo {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 777, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.caption.fullscreenvideo iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* line 782, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.fullscreenvideo {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 790, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-caption.fullscreenvideo iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* NAVIGATION */
+/** BULLETS **/
+/* line 797, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tpclear {
+  clear: both;
+}
+
+/* line 801, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets {
+  z-index: 25;
+  position: absolute;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+}
+
+/* line 814, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.hidebullets {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+/* line 821, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.navbar {
+  border: 1px solid #666;
+  border-bottom: 1px solid #444;
+  background: url(../img/front_img/boxed_bgtile.png);
+  height: 40px;
+  padding: 0px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 832, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.navbar-old {
+  background: url(../img/front_img/navigdots_bgtile.png);
+  height: 35px;
+  padding: 0px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 841, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.round .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/bullet.png) no-Repeat top left;
+  width: 20px;
+  height: 20px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -10px;
+  margin-left: 3px;
+}
+
+/* line 853, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.round .bullet.last {
+  margin-right: 3px;
+}
+
+/* line 857, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.round-old .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/bullets.png) no-Repeat bottom left;
+  width: 23px;
+  height: 23px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -12px;
+}
+
+/* line 868, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.round-old .bullet.last {
+  margin-right: 0px;
+}
+
+/** SQUARE BULLETS **/
+/* line 873, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.square .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/bullets2.png) no-Repeat bottom left;
+  width: 19px;
+  height: 19px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -10px;
+}
+
+/* line 884, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.square .bullet.last {
+  margin-right: 0px;
+}
+
+/** SQUARE BULLETS **/
+/* line 889, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.square-old .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/bullets2.png) no-Repeat bottom left;
+  width: 19px;
+  height: 19px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -10px;
+}
+
+/* line 900, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.square-old .bullet.last {
+  margin-right: 0px;
+}
+
+/** navbar NAVIGATION VERSION **/
+/* line 905, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.navbar .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/bullet_boxed.png) no-Repeat top left;
+  width: 18px;
+  height: 19px;
+  margin-right: 5px;
+  float: left;
+  margin-top: 10px;
+}
+
+/* line 916, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.navbar .bullet.first {
+  margin-left: 0px !important;
+}
+
+/* line 920, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.navbar .bullet.last {
+  margin-right: 0px !important;
+}
+
+/** navbar NAVIGATION VERSION **/
+/* line 925, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.navbar-old .bullet {
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/navigdots.png) no-Repeat bottom left;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  float: left;
+  margin-top: 10px;
+}
+
+/* line 937, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.navbar-old .bullet.first {
+  margin-left: 0px !important;
+}
+
+/* line 941, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.navbar-old .bullet.last {
+  margin-right: 0px !important;
+}
+
+/* line 945, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets .bullet:hover, .tp-bullets.simplebullets .bullet.selected {
+  background-position: top left;
+}
+
+/* line 949, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.simplebullets.round .bullet:hover, .tp-bullets.simplebullets.round .bullet.selected, .tp-bullets.simplebullets.navbar .bullet:hover, .tp-bullets.simplebullets.navbar .bullet.selected {
+  background-position: bottom left;
+}
+
+/*  TP ARROWS */
+/* line 954, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tparrows {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+}
+
+/* line 965, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tparrows.hidearrows {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+/* line 972, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/large_left.png) no-repeat top left;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 981, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-rightarrow {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/large_right.png) no-repeat top left;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 990, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow.round {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/small_left.png) no-repeat top left;
+  width: 19px;
+  height: 14px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -7px;
+}
+
+/* line 1002, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-rightarrow.round {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/small_right.png) no-repeat top left;
+  width: 19px;
+  height: 14px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -7px;
+}
+
+/* line 1014, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow.round-old {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/arrow_left.png) no-repeat top left;
+  width: 26px;
+  height: 26px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -13px;
+}
+
+/* line 1026, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-rightarrow.round-old {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/arrow_right.png) no-repeat top left;
+  width: 26px;
+  height: 26px;
+  margin-right: 0px;
+  float: left;
+  margin-top: -13px;
+}
+
+/* line 1038, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow.navbar {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/small_left_boxed.png) no-repeat top left;
+  width: 20px;
+  height: 15px !important;
+  min-height: 15px !important;
+  float: left;
+  margin-right: 6px;
+  margin-top: 12px;
+}
+
+/* line 1051, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-rightarrow.navbar {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/small_right_boxed.png) no-repeat top left;
+  width: 20px;
+  height: 15px !important;
+  min-height: 15px !important;
+  float: left;
+  margin-left: 6px;
+  margin-top: 12px;
+}
+
+/* line 1064, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow.navbar-old {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/arrowleft.png) no-repeat top left;
+  width: 9px;
+  height: 16px;
+  float: left;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+/* line 1076, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-rightarrow.navbar-old {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/arrowright.png) no-repeat top left;
+  width: 9px;
+  height: 16px;
+  float: left;
+  margin-left: 6px;
+  margin-top: 10px;
+}
+
+/* line 1088, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow.navbar-old:hover, .tp-rightarrow.navbar-old:hover {
+  background-position: left -16px;
+}
+
+/* line 1092, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow.navbar-old.thumbswitharrow {
+  margin-right: 10px;
+}
+
+/* line 1096, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-rightarrow.navbar-old.thumbswitharrow {
+  margin-left: 0px;
+}
+
+/* line 1100, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow.square {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/arrow_left2.png) no-repeat top left;
+  width: 12px;
+  height: 17px;
+  float: left;
+  margin-right: 0px;
+  margin-top: -9px;
+}
+
+/* line 1112, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-rightarrow.square {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/arrow_right2.png) no-repeat top left;
+  width: 12px;
+  height: 17px;
+  float: left;
+  margin-left: 0px;
+  margin-top: -9px;
+}
+
+/* line 1124, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow.square-old {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/arrow_left2.png) no-repeat top left;
+  width: 12px;
+  height: 17px;
+  float: left;
+  margin-right: 0px;
+  margin-top: -9px;
+}
+
+/* line 1136, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-rightarrow.square-old {
+  z-index: 100;
+  cursor: pointer;
+  position: relative;
+  background: url(../img/front_img/arrow_right2.png) no-repeat top left;
+  width: 12px;
+  height: 17px;
+  float: left;
+  margin-left: 0px;
+  margin-top: -9px;
+}
+
+/* line 1148, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow.square-old:hover, .tp-rightarrow.square-old:hover {
+  background-position: left -17px;
+}
+
+/* line 1152, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow.default {
+  z-index: 20;
+  cursor: pointer;
+  position: relative;
+  background-image: url(../img/front_img/large_left.png);
+  background-position: 0 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  left: -100px;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+/* line 1165, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-rightarrow.default {
+  z-index: 20;
+  cursor: pointer;
+  position: relative;
+  background-image: url(../img/front_img/large_right.png);
+  background-position: 0 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  right: -100px;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+/* line 1178, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.bannercontainer:hover .tp-leftarrow.default {
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  left: 0;
+}
+/* line 1182, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.bannercontainer:hover .tp-rightarrow.default {
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+  right: 0;
+}
+
+/* line 1187, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow.default:hover, .tp-rightarrow.default:hover {
+  background-position: 0 -40px;
+  background-color: transparent;
+}
+
+/* line 1191, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-leftarrow:hover, .tp-rightarrow:hover {
+  background-position: 0 -14px;
+  background-color: transparent;
+}
+
+/*  TP THUMBS */
+/* line 1197, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.tp-thumbs {
+  z-index: 1000;
+  position: absolute;
+  padding: 3px;
+  background-color: #fff;
+  width: 500px;
+  height: 50px;
+  /* THE DIMENSIONS OF THE THUMB CONTAINER */
+  margin-top: -50px;
+}
+
+/* line 1208, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.fullwidthbanner-container .tp-thumbs {
+  padding: 3px;
+}
+
+/* line 1212, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.tp-thumbs .tp-mask {
+  width: 500px;
+  height: 50px;
+  /* THE DIMENSIONS OF THE THUMB CONTAINER */
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 1220, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.tp-thumbs .tp-mask .tp-thumbcontainer {
+  width: 5000px;
+  position: absolute;
+}
+
+/* line 1225, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.tp-thumbs .bullet {
+  width: 100px;
+  height: 50px;
+  /* THE DIMENSION OF A SINGLE THUMB */
+  cursor: pointer;
+  overflow: hidden;
+  background: none;
+  margin: 0;
+  float: left;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  /*filter: alpha(opacity=50);  */
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+}
+
+/* line 1245, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bullets.tp-thumbs .bullet:hover, .tp-bullets.tp-thumbs .bullet.selected {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+/* line 1252, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-thumbs img {
+  width: 100%;
+}
+
+/* TP BANNER TIMER */
+/* line 1257, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bannertimer {
+  width: 100%;
+  height: 10px;
+  background: green;
+  position: absolute;
+  z-index: 200;
+  filter: alpha(opacity=80);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+
+/* line 1266, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bannertimer.tp-bottom {
+  bottom: 0px !important;
+  height: 7px;
+}
+
+/* line 1270, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-bannertimer.tp-top {
+  top: 0px !important;
+  height: 3px;
+}
+
+/* RESPONSIVE SETTINGS */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* line 1277, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+  .responsive .tp-bullets.tp-thumbs {
+    width: 300px !important;
+    height: 30px !important;
+  }
+
+  /* line 1282, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+  .responsive .tp-bullets.tp-thumbs .tp-mask {
+    width: 300px !important;
+    height: 30px !important;
+  }
+
+  /* line 1287, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+  .responsive .tp-bullets.tp-thumbs .bullet {
+    width: 60px !important;
+    height: 30px !important;
+  }
+}
+@media (max-width: 575px) {
+  /* line 1293, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+  .responsive .tp-bullets {
+    display: none;
+  }
+
+  /* line 1297, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+  .responsive .tparrows {
+    display: none;
+  }
+}
+/* BASIC SETTINGS FOR THE BANNER */
+/* line 1302, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-simpleresponsive img {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+/* line 1309, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-simpleresponsive a {
+  text-decoration: none;
+}
+
+/* line 1313, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-simpleresponsive ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 1319, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-simpleresponsive > ul > li {
+  list-stye: none;
+  position: absolute;
+  visibility: hidden;
+}
+
+/*  CAPTION SLIDELINK   **/
+/* line 1326, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.caption.slidelink a div, .tp-caption.slidelink a div {
+  width: 10000px;
+  height: 10000px;
+  background: url(../img/front_img/coloredbg.png) repeat;
+}
+
+/* line 1332, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-loader {
+  background: url(../img/front_img/loader.gif) no-repeat 10px 10px;
+  background-color: #fff;
+  margin: -22px -22px;
+  top: 50%;
+  left: 50%;
+  z-index: 10000;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+/* line 1347, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.tp-3d {
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform-origin: 50% 50%;
+}
+
+/* line 1353, ../../../../../../_dev/css/modules/pssliderlayer/views/css/typo.scss */
+.caption .btn:after {
+  display: inline-block;
+  content: "\f061";
+  font-weight: 300;
+  margin-left: 10px;
+  font-family: "Material Icons";
+}

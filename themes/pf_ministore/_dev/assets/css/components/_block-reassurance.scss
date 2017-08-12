@@ -1,0 +1,29 @@
+@import "../../../theme_variables";
+#block-reassurance{
+  margin-top: rem(20px);
+  img{
+    opacity: .7;
+    width: rem(25px);
+    @include rtl-margin-right(rem(10px));
+    @include rtl-float-left;
+  }
+  li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    &:last-child {
+      border: 0;
+    }
+  }
+  li .block-reassurance-item{
+    padding: 1rem 0;
+  }
+  #product &{
+    background: white;
+    border: $main_border;
+    padding: 10px 30px 0;
+    span{
+      font-weight: 500;
+      overflow: hidden;
+    }
+  }
+}

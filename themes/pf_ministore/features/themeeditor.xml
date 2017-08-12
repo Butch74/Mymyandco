@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<themeeditor>
+	<version value="1.4">
+	<ccc available="true" />
+	<guest_checkout available="true" />
+	<one_page_checkout available="true" />
+	<store_locator available="true" />
+	</version>
+	<author>Prestabrain</author>
+<name>Live Theme Editor</name>	
+<customization>
+	<global>
+			<name>Colors</name>
+			<items>
+				<header>Body Content</header>
+				<match>body</match>
+
+				<item>
+					<type>text</type>
+					<label>Bg Color Primary</label>
+					<selector>.btn-primary, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary:disabled:focus, .btn-primary:disabled.focus, .btn-primary.disabled:hover, .btn-primary:disabled:hover, btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary.focus, .btn-outline-primary:active, .btn-outline-primary.active, .open > .btn-outline-primary.dropdown-toggle, .pagination .page-list li.current, .pagination .page-list li:hover, #to_top, .offcanvas-heading .btn, .block_newsletter .btn:hover, .owl-carousel-play:focus > .carousel-controls .carousel-control:focus, .owl-carousel-play:focus > .carousel-controls .carousel-control:hover, .owl-carousel-play:hover > .carousel-controls .carousel-control:focus, .owl-carousel-play:hover > .carousel-controls .carousel-control:hover, .blockcart .cart-products-count, .blockcart .ps_cartcontent .cart-buttons a</selector>
+					<attrs>background-color</attrs>
+				</item>
+
+				<item>
+					<type>text</type>
+					<label>Theme color Primary</label>
+					<selector>a:hover, .blockcart .ps_cartcontent .car-product .cart-name a:hover, .pts-tab .nav-tabs li.nav-item a.active, .pts-tab .nav-tabs li.nav-item a:hover, .product-miniature .product-title a:hover, .grid .product-miniature .product-list-actions > div > div.add-to-cart button:hover, .grid .product-miniature .product-list-actions > div > div a:hover, .grid .product-miniature .product-list-actions > div > div button:hover, .list1 .product-miniature .right-block .quick-view a:hover, .header-default .header-nav .dropdown-menu li.current a, .header1 .dropdown-menu li.current a, .dropdown:hover .expand-more, .product-quantities, .product-quantity .input-group-btn-vertical .btn:hover, .scroll-box-arrows i:hover, .cart-summary-line .value, .cart-grid-body .card-block h1 </selector>
+					<attrs>color</attrs>
+				</item> 
+				
+				<item>
+					<type>text</type>
+					<label>Border Color Hover</label>
+					<selector>.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary.focus, .owl-carousel-play:focus > .carousel-controls .carousel-control:focus, .owl-carousel-play:focus > .carousel-controls .carousel-control:hover, .owl-carousel-play:hover > .carousel-controls .carousel-control:focus, .owl-carousel-play:hover > .carousel-controls .carousel-control:hover, .all-product-link:hover, .list1 .product-miniature .right-block .quick-view a:hover, .product-images > li.thumb-container > .thumb.selected, .product-images > li.thumb-container > .thumb:hover, .scroll-box-arrows i:hover, .social-sharing li:hover, .form-control:focus </selector>
+					<attrs>border-color</attrs>
+				</item> 
+				<item>
+					<type>text</type>
+					<label>Text color Primary</label>
+					<selector>body</selector>
+					<attrs>color</attrs>
+				</item> 				
+				<item>
+					<type>text</type>
+					<label>Link Color</label>
+					<selector>body a</selector>
+					<attrs>color</attrs>
+				</item> 				
+	 			<item>
+					<type>text</type>
+					<label>Background body Color</label>
+					<selector>body</selector>
+					<attrs>background-color</attrs>
+				</item>
+
+				<item>
+					<type>image</type>
+					<label>Background image</label>
+					<selector>body</selector>
+					<attrs>background-image</attrs>
+				</item>
+		</items>
+
+		<items>
+			<header>TopBar</header>
+			<match>header-nav</match>
+			<item>
+				<type>image</type>
+				<label>Background Image</label>
+				<selector>#header .header-nav</selector>
+				<attrs>background-image</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Background Color</label>
+				<selector>#header .header-nav</selector>
+				<attrs>background-color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Text Color</label>
+				<selector>#header .header-nav</selector>
+				<attrs>color</attrs>
+			</item>  
+		 	<item>
+				<type>text</type>
+				<label>Color Link</label>
+				<selector>#header .header-nav a</selector>
+				<attrs>color</attrs>
+			</item> 
+		</items>
+	 	<items>
+			<header>Header</header>
+			<match>header-top</match>
+			<item>
+				<type>text</type>
+				<label>Background Color</label>
+				<selector>#header,#header .header-top</selector>
+				<attrs>background-color</attrs>
+			</item>
+
+			<item>
+				<type>image</type>
+				<label>Background Image</label>
+				<selector>#header,#header .header-top</selector>
+				<attrs>background-image</attrs>
+			</item>
+		</items>
+		<items>
+			<header>MainMenu</header>
+			<match>ps-desktop-megamenu</match>
+			<item>
+				<type>text</type>
+				<label>Background Color</label>
+				<selector>#page .ps-desktop-megamenu</selector>
+				<attrs>background-color</attrs>
+			</item> 
+			<item>
+				<type>image</type>
+				<label>Background Image</label>
+				<selector>#page .ps-desktop-megamenu</selector>
+				<attrs>background-image</attrs>
+			</item> 	
+			<item>
+				<type>text</type>
+				<label>Color Menu Title</label>
+				<selector>#page .ps-desktop-megamenu .megamenu > li > a .menu-title</selector>
+				<attrs>color</attrs>
+			</item> 
+			<item>
+				<type>text</type>
+				<label>Color Menu Hover</label>
+				<selector>#page .ps-desktop-megamenu .megamenu > li > a .menu-title:hover</selector>
+				<attrs>color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Background Sub Menu</label>
+				<selector>#page .ps-desktop-megamenu .dropdown-menu</selector>
+				<attrs>background-color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Color Title submenu</label>
+				<selector>#page .megamenu .widget .title_block</selector>
+				<attrs>color</attrs>
+			</item>		
+			<item>
+				<type>text</type>
+				<label>Color submenu</label>
+				<selector>#page .pts-megamenu .dropdown-menu</selector>
+				<attrs>color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Color Link submenu</label>
+				<selector>#page .dropdown-menu li a</selector>
+				<attrs>color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Color Link submenu hover</label>
+				<selector>#page .dropdown-menu li a:hover</selector>
+				<attrs>color</attrs>
+			</item>
+		</items>
+		<items>
+			<header>breadcumb</header>
+			<match>breadcumb</match>
+				<item>
+					<type>text</type>
+					<label>Background Breadcumb</label>
+					<selector>.ps_breadcumb</selector>
+					<attrs>background-color</attrs>
+				</item> 
+
+				<item>
+					<type>image</type>
+					<label>Background Image</label>
+					<selector>.ps_breadcumb</selector>
+					<attrs>background-image</attrs>
+				</item>
+
+			 	<item>
+					<type>text</type>
+					<label>Breadcumb color</label>
+					<selector>.ps_breadcumb .breadcrumb li a</selector>
+					<attrs>color</attrs>
+				</item> 
+
+				<item>
+					<type>text</type>
+					<label>Breadcumb Link Color Hover</label>
+					<selector>.ps_breadcumb .breadcrumb li a:hover</selector>
+					<attrs>color</attrs>
+				</item>  
+		</items>
+		<items>
+			<header>Footer Top</header>
+			<match>footer-center</match>
+				<item>
+					<type>text</type>
+					<label>Background Color</label>
+					<selector>#page .footer-center</selector>
+					<attrs>background-color</attrs>
+				</item> 
+				<item>
+					<type>image</type>
+					<label>Background image</label>
+					<selector>#page .footer-center</selector>
+					<attrs>background-image</attrs>
+				</item> 
+				<item>
+					<type>text</type>
+					<label>Color Text</label>
+					<selector>#page .footer-center</selector>
+					<attrs>color</attrs>
+				</item> 
+
+				<item>
+					<type>text</type>
+					<label>Color Link</label>
+					<selector>#page .footer-container .footer-center li a</selector>
+					<attrs>color</attrs>
+				</item> 
+				<item>
+					<type>text</type>
+					<label>Color Link Hover</label>
+					<selector>#page .footer-container .footer-center li a:hover</selector>
+					<attrs>color</attrs>
+				</item>
+		</items>	
+		<items>
+			<header>Powered</header>
+			<match>powered</match>
+			<item>
+				<type>text</type>
+				<label>Background Color</label>
+				<selector>#page .pts-copyright</selector>
+				<attrs>background-color</attrs>
+			</item> 
+			<item>
+				<type>text</type>
+				<label>Color Text</label>
+				<selector>#page .pts-copyright</selector>
+				<attrs>color</attrs>
+			</item> 
+
+		 	<item>
+				<type>text</type>
+				<label>Color Link</label>
+				<selector>#page .pts-copyright .widget-html .widget-inner a</selector>
+				<attrs>color</attrs>
+			</item> 
+			<item>
+				<type>image</type>
+				<label>Background Image</label>
+				<selector>#page .pts-copyright</selector>
+				<attrs>background-image</attrs>
+			</item> 
+
+		</items>
+	</global>
+
+	<elements>
+		<items>
+			<header>Products</header>
+			<match>product</match>
+			<item>
+				<type>text</type>
+				<label>Bg Product</label>
+				<selector>#page .product-miniature</selector>
+				<attrs>background-color</attrs>
+			</item>		
+			<item>
+				<type>text</type>
+				<label>Border</label>
+				<selector>#page .grid .product-miniature</selector>
+				<attrs>border-color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Bg Product Action</label>
+				<selector>#page .grid .product-miniature .product-list-actions</selector>
+				<attrs>background-color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Color Product Action</label>
+				<selector>.grid .product-miniature .product-list-actions > div > div a, .grid .product-miniature .product-list-actions > div > div button</selector>
+				<attrs>color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Text Product</label>
+				<selector>#page .product-miniature</selector>
+				<attrs>color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Text Link</label>
+				<selector>#page .product-miniature a</selector>
+				<attrs>color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Text Link Hover</label>
+				<selector>#page .product-miniature a:hover, .grid .product-miniature .product-title a:hover</selector>
+				<attrs>color</attrs>
+			</item>
+			<item>
+				<type>text</type>
+				<label>Color Price</label>
+				<selector>#page .product-miniature .product-price-and-shipping .price </selector>
+				<attrs>color</attrs>
+			</item> 
+			<item>
+				<type>text</type>
+				<label>Color old Price</label>
+				<selector>#page .product-miniature .product-price-and-shipping .regular-price</selector>
+				<attrs>color</attrs>
+			</item>
+		</items>
+		
+
+		<items>
+			<header>Block Default in Sidebar</header>
+			<match>modules</match> 
+				<item>
+					<type>text</type>
+					<label>Background</label>
+					<selector>#page .sidebar .block .block_content </selector>
+					<attrs>background-color</attrs>
+				</item> 
+				<item>
+					<type>text</type>
+					<label>Border content color</label>
+					<selector>#page .sidebar .facet, #page .sidebar .block-categories</selector>
+					<attrs>border-color</attrs>
+				</item>   
+				<item>
+					<type>text</type>
+					<label>Heading Color</label>
+					<selector>#page .sidebar .block .title-sidebar</selector>
+					<attrs>color</attrs>
+				</item> 
+				<item>
+					<type>text</type>
+					<label>text-color</label>
+					<selector>#page .sidebar .block .block_content</selector>
+					<attrs>color</attrs>
+				</item>  
+				<item>
+					<type>text</type>
+					<label>Link Color</label>
+					<selector>#page .sidebar .block .block_content .name a, #page .sidebar .block .block_content a</selector>
+					<attrs>color</attrs>
+				</item> 
+		</items>
+	</elements>
+
+	<typography>
+		<items>
+			<header>Body Typo</header>
+			<match>typo-body</match>
+				<item>
+					<type>fontfamily</type>
+					<label>Font Family</label>
+					<selector>body, .pts-copyright, .product-price-and-shipping, .product-miniature .product-title a, .ps-desktop-megamenu .dropdown-menu, .product-price, .product-prices, .ps-desktop-megamenu .megamenu > li > a .menu-title, .megamenu .widget .title_block</selector>
+					<attrs>font-family</attrs>
+				</item> 
+
+			 	<item>
+					<type>fontsize</type>
+					<label>Font-Size</label>
+					<selector>body</selector>
+					<attrs>font-size</attrs>
+					<unit>px</unit>
+				</item> 
+
+				<item>
+					<type>fontsize</type>
+					<label>Light-Height</label>
+					<selector>body</selector>
+					<attrs>line-height</attrs>
+					<unit>px</unit>
+				</item> 
+
+		</items>
+
+		<items>
+			<header>Heading Block</header>
+			<match>page-heading</match>
+			<item>
+				<type>fontfamily</type>
+				<label>Font Family</label>
+				<selector>.block .title_block, .pts-tab .nav-tabs li.nav-item a, .ps_breadcumb, .title-sidebar, .pd-right .product-name-detail</selector>
+				<attrs>font-family</attrs>
+			</item> 
+
+		 	<item>
+				<type>fontsize</type>
+				<label>Font-Size</label>
+				<selector>.block .title_block</selector>
+				<attrs>font-size</attrs>
+				<unit>px</unit>
+			</item> 
+
+			<item>
+				<type>fontsize</type>
+				<label>Light-Height</label>
+				<selector>.block .title_block</selector>
+				<attrs>line-height</attrs>
+				<unit>px</unit>
+			</item> 
+		</items>
+
+		<items>
+			<header>Heading Typo</header>
+			<match>typo-heading</match>
+			<item>
+				<type>fontfamily</type>
+				<label>Font Family</label>
+				<selector>h2, h3, h4, h5, h6, h7</selector>
+				<attrs>font-family</attrs>
+			</item> 
+		</items>
+
+		<items>
+			<header>Module Typo</header>
+			<match>typo-modules</match>
+			<item>
+				<type>fontfamily</type>
+				<label>Font Family</label>
+				<selector>.row-offcanvas .sidebar .block .title-sidebar</selector>
+				<attrs>font-family</attrs>
+			</item> 
+			<item>
+				<type>fontsize</type>
+				<label>Font-Size</label>
+				<selector>.row-offcanvas .sidebar .block .title-sidebar</selector>
+				<attrs>font-size</attrs>
+				<unit>px</unit>
+			</item> 
+
+			<item>
+				<type>fontsize</type>
+				<label>Light-Height</label>
+				<selector>.row-offcanvas .sidebar .block .title-sidebar</selector>
+				<attrs>line-height</attrs>
+				<unit>px</unit>
+			</item>
+		</items>
+
+	</typography>
+</customization>
+	</themeeditor>

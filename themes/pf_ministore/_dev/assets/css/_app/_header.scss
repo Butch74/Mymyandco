@@ -1,0 +1,344 @@
+/**
+ * HEADER CSS STYLES
+ */
+ /* default */
+ #header{
+    &.headerFixed{
+        @include media-breakpoint-up(md){
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 99;
+        }
+        
+    }
+ }
+.header-default {
+    background: $header-bg;
+    .header-nav {
+        @include container-layout-variant( $topbar-color, $topbar-bg, $topbar-link-color, $topbar-link-hover-color ); 
+        font-size: $topbar-font-size;
+        position: relative;
+        .expand-more {
+            text-transform: uppercase;
+        }
+        @include media-breakpoint-down(md){
+            padding-bottom: 20px;
+        }
+
+        .mobile{
+            padding: 0 15px;
+            > div{
+                padding: 10px 8px;
+            }
+            .setting-nav{
+                > div {
+                    display: inline-block;
+                    padding: 0 10px;
+                }
+                @include media-breakpoint-down(md){
+                    display: inline-block;
+                    @include rtl-float-left;
+                }
+            }
+            .top-logo{
+                @include media-breakpoint-down(md){
+                    width: 100% !important;
+                }
+            }
+        }
+        a{
+            cursor: pointer;
+        }
+        .right-nav {
+          @include display(flex);
+          @include flex-wrap(nowrap);
+          @include justify-content(flex-end);
+          @include align-items(center);
+          & > div {
+            padding: 0 15px;
+            @include rtl-border-right(1px solid $base-border-color);
+            &:last-child{
+                border: none;
+            }
+          }
+          .blockcart{
+            .header{
+                .fa-shopping-bag{
+                    display: none;
+                }
+            }
+          }
+        }
+        .left-nav {
+          @include display(flex);
+          @include flex-wrap(nowrap);
+          @include align-items(center);
+          & > div {
+            padding: 0 15px;
+            @include rtl-border-left(1px solid $base-border-color);
+            &:first-child{
+                border: none;
+                @include rtl-padding(0, 15px, 0, 0);
+            }
+            @include media-breakpoint-only(lg){
+                padding: 0 5px;
+                font-size: 11px;
+            }
+          }
+        }
+        .block-social li {
+            padding: 0 rem(5px);
+            display: inline-block;
+            cursor: pointer;
+            a{
+                font-size: 14px;
+            }
+        }
+        .user-info a {
+            i{
+                font-size: 15px;
+            }
+        }
+        .dropdown-menu li {
+            a {
+                @include rtl-text-align-left;
+                img{
+                    @include rtl-margin-right(10px);
+                }
+                color: #222;
+                 &:hover {
+                    color: $link-hover-color;
+                }
+            }
+            &.current {
+                a {
+                    color: $theme-color; 
+                }
+            }          
+        }
+    }
+    .nav-top{
+        padding: 30px 0;
+        @include transition(0.5s all ease-in-out 0s);
+    }
+    &.mini-navbar{
+        @include box-shadow-com(0 4px 5px 0 rgba(0, 0, 0, 0.1));
+        .nav-top{
+            padding: 10px 0;
+        }
+        .ps-desktop-megamenu{
+            border: none;
+        }
+    }
+    .logo-theme {
+        a {
+            background-image: url('../img/data/logo.png');
+        }
+    }
+
+    //menu
+    .ps-desktop-megamenu { 
+        text-align: center;
+        position: relative;
+        z-index: 10;
+        #cavas_menu {
+            @include display(flex);
+            @include justify-content(center);
+            position: static;
+        }
+    }
+    //customersignin
+    .user-info {
+        ul { 
+            margin: 10px 0;
+            li {
+                display: inline-block;
+                border-right: 1px solid #444444;
+                padding: 0 15px;
+                vertical-align: middle;
+                &:last-child {
+                    border-right: 0;
+                }
+            }
+        }
+
+    }
+}
+
+.header1 {
+    background: $header-bg;
+    .setting-nav, .right-nav{
+        .expand-more {
+            text-transform: uppercase;
+        }
+    }
+    &.mini-navbar{
+        @include box-shadow-com(0 4px 5px 0 rgba(0, 0, 0, 0.1));
+    }
+
+    .dropdown-menu li {
+        a {
+            @include rtl-text-align-left;
+            img{
+                @include rtl-margin-right(10px);
+            }
+            color: #222;
+             &:hover {
+                color: $link-hover-color;
+            }
+        }
+        &.current {
+            a {
+                color: $theme-color; 
+            }
+        }          
+    }
+    .header-nav{
+        
+        a{
+            cursor: pointer;
+        }
+        .mobile{
+            padding: 15px;
+            position: relative;
+            > div {
+                padding: 10px;
+            }
+        }
+        .setting-nav{
+            > div {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            @include media-breakpoint-down(md){
+                display: inline-block;
+                @include rtl-float-left;
+            }
+        }
+    }
+    .header-top {
+        @include container-layout-variant( $topbar-color, $topbar-bg, $topbar-link-color, $topbar-link-hover-color ); 
+        font-size: $topbar-font-size;
+        position: relative;
+        .row{
+            margin: 0;
+        }
+        .header_logo{
+            text-align: center;
+            padding: 12px 15px 10px;
+        }
+        a{
+            cursor: pointer;
+        }
+        .right-nav {
+          @include display(flex);
+          @include flex-wrap(nowrap);
+          @include justify-content(flex-end);
+          @include align-items(center);
+          .search-focus{
+            .text-label{
+                display: none;
+            }
+          }
+          & > div {
+            padding: 0 12px;
+            @include rtl-border-right(1px solid $base-border-color);
+            &:last-child{
+                border: none;
+            }
+            @include media-breakpoint-only(lg){
+                padding: 0 9px;
+                font-size: 11px;
+            }
+          }
+        }
+        .left-nav {
+          @include display(flex);
+          @include flex-wrap(nowrap);
+          @include align-items(center);
+          & > div {
+            padding: 0 15px;
+            @include rtl-border-left(1px solid $base-border-color);
+            &:first-child{
+                border: none;
+                @include rtl-padding(0, 15px, 0, 0);
+            }
+          }
+        }
+        .block-social li {
+            padding: 0 rem(5px);
+            display: inline-block;
+            cursor: pointer;
+            a{
+                font-size: 14px;
+            }
+        }
+        .user-info a {
+            i{
+                font-size: 15px;
+            }
+        }
+        
+    }
+    .logo-theme {
+        a {
+            background-image: url('../img/data/logo.png');
+        }
+    }
+
+    //menu
+    .ps-desktop-megamenu { 
+        text-align: center;
+        width: 100%;
+        position: static;
+        z-index: 10;
+        border: none !important;
+        .megamenu{
+            > li{
+                display: inline-block;
+                float: none;
+                > a{
+                    padding: 13px;
+                    @include media-breakpoint-only(lg){
+                        padding: 13px 5px;
+                    }
+                }
+            }
+        }
+        #cavas_menu {
+            @include display(flex);
+            @include justify-content(center);
+            position: static;
+        }
+    }
+    //customersignin
+    .user-info {
+        ul { 
+            margin: 10px 0;
+            li {
+                display: inline-block;
+                border-right: 1px solid #444444;
+                padding: 0 15px;
+                vertical-align: middle;
+                &:last-child {
+                    border-right: 0;
+                }
+            }
+        }
+    }
+    .blockcart{
+      .header{
+        a{
+          i{
+            display: inline-block;
+          }
+          .cart-label{
+            display: none;
+          }
+        }
+      }
+    }
+     
+}

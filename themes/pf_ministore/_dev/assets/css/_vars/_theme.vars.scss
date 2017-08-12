@@ -1,0 +1,65 @@
+
+// Variables paths 
+// ========================================================================
+
+$font-family-primary:		'Work Sans', sans-serif !default;
+$font-family-secondary :       'Raleway', sans-serif !default;
+$font-family-tertiary  :       $font-family-primary !default;
+
+
+
+//////////////////// Variables defined for Themes + Skins ////////////////
+
+$theme-color:  				        #86bde9 !default;
+$theme-color2:  				    #8ec354 !default;
+$theme-color-primary :				#000000 !default;
+$theme-color-secondary:             #818796!default;
+$theme-color-tertiary:              #d6d6d6 !default;
+
+$text-color-primary: 					#818796 !default;
+$text-color-secondary: 				#000 !default;
+$text-color-tertiary: 				#555 !default;
+
+//font icon
+$font-icon: 			             "Material Icons" !default;
+$font-icon-secondary: 			    "FontAwesome" !default;
+
+//
+
+$font-base-size: 13px;
+// Variables
+// --------------------------------------------------
+$rtl-left : left!default;
+$rtl-right : right!default;
+//-------- BORDERS
+
+$base-border-color:					#ebebeb !default;
+$main-border: 						1px solid $base-border-color;
+
+// tab style version 4 //
+$bo-tabs-v4-a-color:               #cccccc !default; 
+$bo-tabs-v4-a-color-active:        #000 !default;
+
+$bo-tabs-v4-padding:               rem(25px) rem(5px) !default; 
+$bo-tabs-v4-background:            #f1f1f1 !default;
+$bo-tabs-v4-background-hover:      #ffffff !default;
+$bo-tabs-v4-content-background:    transparent !default;
+
+$bo-tabs-v4-border-color : #cdcdcd !default;
+$bo-tabs-v4-content-border:  0 solid $base-border-color;
+$bo-tabs-v4-content-padding: rem(15px) 0!default;
+
+// tab style version 5 //
+$tabinfo-color:               #000 !default; 
+$tabinfo-color-active:        #000 !default;
+
+$tabinfo-padding:               em(15px) em(30px) !default; 
+$tabinfo-background:            #f9f9f9 !default;
+$tabinfo-background-hover:      #fff !default;
+$tabinfo-content-background:    #fff !default;
+
+$tabinfo-border-color : #cdcdcd !default;
+$tabinfo-content-border:  5px solid $base-border-color;
+$tabinfo-content-padding: em(30px) em(25px) !default;
+$transition:				all 0.35s ease 0s ;				
+$text-color:							#999!default;

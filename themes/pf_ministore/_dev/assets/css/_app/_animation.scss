@@ -1,0 +1,557 @@
+
+
+.parallax {
+  @include parallax();
+}
+
+.product-block {
+  .left-block {
+    position: relative;
+    overflow: hidden;
+  }
+ @include media-breakpoint-up(md) {
+    &:hover {
+      &.swap-gallery {
+          .product-zoom {
+            margin: -10px -40px -0 0;
+          }
+          .thumbs-wrap {
+              @include rtl-left(-90px);
+              @include opacity(1);
+          }
+      }
+    }
+  }
+}
+@include media-breakpoint-down(xs){
+  .widget-images{
+    .image-item{
+      text-align: center;
+    }
+  }
+}
+
+  .product-miniature.swap-image {
+    .image{
+      img{
+        @include transition(opacity 0.6s ease 0s, transform 0.6s ease 0s);
+      }
+    }
+    .hover-image {
+      position: absolute;
+      padding:0;
+      top: 0;
+      width: 100%;
+      left: 0;
+      @include transition(0.3s all ease-in-out 0s);
+      @include translate(-100%, 0px);
+      //@include opacity(0);
+      z-index: 1;
+
+    }
+    @include media-breakpoint-up(md){
+      &:hover {
+        .image{
+          img{
+            @include translate(100%, 0px);
+          }
+        }
+        
+      }
+    }
+    
+  }
+
+
+
+//image
+.pts-popup.fancybox {
+  @include opacity(0);
+  visibility: hidden;
+}
+
+//  effect */
+@include media-breakpoint-up(sm) {
+  .img-animation{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    &:hover{
+      @include box-shadow();
+      @include transition(all 0.3s ease);
+    }  
+  }
+  .widget-images {
+    .pts-popup.fancybox {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      @include size(40px,40px);
+      line-height: 40px;
+      color: #000;
+      background: #fff;
+      text-align: center;
+      @include border-radius(50%);
+      margin: auto;
+      z-index: 100;
+      //@include scale(0);
+      @include transition(all 0.3s ease);
+    }
+    &:hover {
+      .pts-popup.fancybox {
+        visibility: visible;
+        @include opacity(1);
+        //@include scale(1);
+        &:hover {
+          background-color: $theme-color-primary;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  // effect-v2*/
+  .effect-v1 {
+    .image-item {
+      position: relative;
+    
+    a {
+        
+        z-index: 9;
+      
+      img{
+        @include transition(all 0.3s ease-in-out 0s);
+      }
+      &:before{
+        content: "";
+        @include opacity(0);
+        position: absolute;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        bottom: 30px;
+        top: 30px;
+        left: 15px;
+        right: 15px;
+        @include scale(0,1);
+        @include transform-origin(0 0 0);
+        @include transition(opacity 0.35s ease 0s, transform 0.35s ease 0s);
+      }
+      &:after{
+        content: "";
+        @include opacity(0);
+        position: absolute;
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+        bottom: 15px;
+        top: 15px;
+        left: 30px;
+        right: 30px;
+        @include scale(1,0);
+        @include transform-origin(100% 0 0);
+        @include transition(opacity 0.35s ease 0s, transform 0.35s ease 0s);
+      }
+      
+    }
+    &:hover{
+      a{
+         &:before, &:after{
+          @include opacity(1);
+          @include scale(1);
+        }
+        img {
+            @include box-shadow-com(0 17px 17px 5px rgba(0, 0, 0, 0.13));
+        }
+      }
+        
+    }
+  }
+}  
+  // effect-v2*/
+  .effect-v2{
+    .img-animation {
+      
+      &:before {
+          bottom: 0;
+          content: "";
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          @include size(100%,100%);
+          background-color: rgba(0,0,0,0.05);
+          @include transition( all 0.35s ease-in-out 0s);
+          z-index: 1;
+      }      
+      &:after {
+          bottom: 0;
+          content: "";
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          @include size(100%,100%);
+          background-color: rgba(0,0,0,0.05);
+          @include transition( all 0.35s ease-in-out 0s);
+          z-index: 1;
+      }
+
+      // style for hover */
+      &:hover{
+        &:before {  
+            top: 100%;
+            left: 100%;
+            bottom: -100%;
+            right: -100%;
+        }        
+        &:after {  
+            bottom: 100%;
+            top: -100%;
+            left: -100%;
+            right: 100%;
+        }
+      }
+    }
+  }
+
+
+  // effect-v3*/
+  .effect-v3{ 
+    .img-animation {
+      
+      &:before,&:after {
+        bottom: 20px;
+          content: "";
+          left: 20px;
+          @include opacity (0);
+          position: absolute;
+          right: 20px;
+          top: 20px;
+          @include transition( opacity 0.35s ease 0s, transform 0.35s ease 0s);
+          z-index: 1;
+      }
+      &:before {
+          border-bottom: 1px solid #ffffff;
+          border-top: 1px solid #ffffff;
+          //@include scale(0, 1);
+      }
+      &:after {
+          border-left: 1px solid #ffffff;
+          border-right: 1px solid #ffffff;
+          //@include scale(1, 0);
+      }
+      img {
+        @include opacity(1);
+        @include transition (opacity 0.35s ease 0s);
+      }
+      .banner-title{
+          //@include translate3d(0px, -20px, 0px);
+          @include transition (transform 0.35s ease 0s);
+      }
+      .action{
+          @include opacity(0);
+          //@include translate3d(0px, 40px, 0px);
+          @include transition( opacity 0.35s ease 0s, transform 0.35s ease 0s);
+      }
+      
+      // style for hover */
+      &:hover{
+        &:before,
+        &:after { 
+            @include opacity(1);
+              //@include scale(1);
+        }
+        .banner-title,.action{
+            @include opacity(1);
+              //@include translate3d(0px, 0px, 0px);
+          }
+      }
+    }
+  }
+
+  // effect-v4*/
+  .effect-v4{ 
+    .img-animation {
+      
+      &:before {
+          border: 1px solid #ffffff;
+          bottom: 30px;
+          //@include box-shadow(0 0 0 30px rgba(0, 0, 0, 0.05));
+          content: "";
+          left: 30px;
+          @include opacity (0);
+          position: absolute;
+          right: 30px;
+          top: 30px;
+          //@include scale(1.4);
+          @include transition( opacity 0.35s ease 0s, transform 0.35s ease 0s);
+          z-index: 1;
+      }
+      img {
+          @include transition (all 0.35s ease 0s);
+      }
+      .banner-title{
+          //@include scale(1);
+            @include transition (transform 0.35s ease 0s);
+        }
+
+      
+      // style for hover */
+      &:hover{
+        &:before {  
+            @include opacity(1);
+              //@include scale(1);
+        }
+        img {
+          @include transition (all 0.35s ease 0s);
+        }
+        .banner-title{        
+              //@include scale(0.9);
+          }
+      }
+    }
+  }
+
+
+  // effect-v5*/
+  .effect-v5 { 
+    .img-animation {
+      
+      &:before {
+          border: 1px solid #ffffff;
+          bottom: 10px;
+          content: "";
+          left: 10px;
+          @include opacity(0);
+          //@include scale(1.4);
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          @include transition( opacity 0.35s ease 0s, transform 0.35s ease 0s);
+          z-index: 1;
+      }
+      &:after {
+          bottom: 10px;
+          //@include box-shadow(0 0 0 10px rgba(206, 209, 218, 0.3));
+          content: "";
+          left: 10px;
+          @include opacity(1);
+          //@include scale(1);
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          @include transition( opacity 0.35s ease 0s, transform 0.35s ease 0s);
+          z-index: 1;
+      }
+      img {
+          @include transition (all 0.35s ease 0s);
+      }
+      // style for hover */
+      &:hover{
+        &:before {  
+            @include opacity(1);
+            //@include scale(1);
+        }
+      }
+    }
+  }
+  // effect-v6*/
+  .effect-v6{ 
+    .img-animation {
+       
+      
+      img {
+        //@include scale(1,1);
+        @include transition (all 0.35s ease 0s);
+      }
+      // style for hover */
+      &:hover{
+        img {
+          //@include scale(1.1,1.1);
+        }
+      }
+    }
+  }
+
+  // effect-v7*/
+  .effect-v7 { 
+    .img-animation {
+      
+      &:before {
+          bottom: 0;
+          content: "";
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          @include transition(all 0.4s cubic-bezier(0.94, 0.85, 0.1, 0.62) 0s);
+          z-index: 1;
+          border: 150px double rgba(0, 0, 0, 0.1);
+          @include opacity(1);
+          visibility: visible;
+      }
+      
+      // style for hover */
+      &:hover{
+        &:before {  
+            @include opacity(0);
+            border: 0 double rgba(255, 255, 255, 0.7);
+            visibility: hidden;
+        }
+      }
+    }
+  }
+
+  // effect-v8*/
+  .effect-v8 { 
+    .img-animation {
+      
+      &:before {
+         border-bottom: 50px solid rgba(255, 255, 255, 0.4);
+          border-top: 50px solid rgba(255, 255, 255, 0.4);
+          content: "";
+          height: 100%;
+          left: 0;
+          @include opacity(0);
+          position: absolute;
+          top: 0;
+          transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+          -o-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+          -webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+          -moz-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+          -ms-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+          @include transition (all 0.35s ease-in-out 0s);
+          transform-origin: 50% 50% 0;
+          width: 100%;
+
+      }
+      
+      // style for hover */
+      &:hover{
+        &:before {  
+             @include opacity(1);
+                 transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 4, 1);
+                 -o-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 4, 1);
+            -webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 4, 1);
+            -moz-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 4, 1);
+            -ms-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 4, 1);
+        }
+      }
+    }
+  }
+
+  // effect-v9*/
+  .effect-v9 { 
+    .img-animation {
+      
+      &:before {
+          border: 50px solid rgba(0, 0, 0, 0.07);
+          @include border-radius (50%);
+          box-sizing: border-box;
+          cursor: pointer;
+          display: inline-block;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          position: absolute;
+          top: 0;
+          content: "";
+          @include opacity (1);
+          @include size(100px, 100px);
+          //@include scale(7);
+          @include transition (all 0.7s ease-in-out 0s);
+          visibility: visible;
+          z-index: 1;
+      }
+      
+      // style for hover */
+      &:hover{
+        &:before {  
+            border-width: 0;
+            @include opacity (0);
+            visibility: hidden;
+        }
+      }
+    }
+  }
+
+  // effect-v10*/
+  .effect-v10 {  
+    .img-animation {
+      
+      &:before {      
+          background-color: rgba(255, 255, 255, 0.2);
+          display: block;
+          @include size(100%, 100%);
+          left: -100%;
+          @include opacity (0);
+          position: absolute;
+          top: 0;
+          @include transition (all 0.3s ease 0s);
+          content: "";
+          z-index: 1;
+      }
+      
+      // style for hover */
+      &:hover{
+        &:before {  
+          left: 0;
+              @include opacity (1);
+        }
+      }
+    }
+  }
+
+}
+  //product
+  .products-block {
+    &.grid {
+      .product-miniature {
+        .product-thumbnail {
+        }
+        .highlighted-informations {
+          @include center-prefect;
+          height: 40px;
+          bottom: -20px;
+          text-align: center;
+          max-width: 200px;
+          > a {
+              display: inline-block;
+              height: em(40px);
+              width: em(40px);
+              transform: scaleY(0);
+              z-index: 98;
+              display: block;
+              text-align: center;
+              color: #a2a7b5;
+              font-size: 14px;
+              line-height: em(38px);
+              position: relative;            
+              @include transition(all 0.5s ease-in-out 0s);
+              &:hover{
+                color: $theme-color-primary;
+              }
+          }
+        }
+        &:hover {
+          @include box-shadow;
+          @include transition($transition);
+          .product-thumbnail {
+            &:before {
+              @include opacity(1);
+            }
+          }
+          @include media-breakpoint-up(lg){
+            .highlighted-informations {
+            background: #3d3d3d;
+              > a  {
+                transform: scaleY(1);
+              }
+            }
+          }  
+        }
+      }
+    }
+  }

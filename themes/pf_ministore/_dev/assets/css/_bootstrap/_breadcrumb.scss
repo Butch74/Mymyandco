@@ -1,0 +1,125 @@
+.ps_breadcumb {
+   background-color: #f7f7f7;
+    min-height: rem(230px);
+    margin: 0 55px;
+    line-height: rem(40px);
+    font-family: $font-family-secondary;
+    color: #000000;
+    font-weight: 500;
+    text-transform: capitalize;
+   
+    @include align-items(flex-end);
+    margin-bottom: rem(50px);
+    @include opacity(1);
+    visibility: visible;
+    @include display(flex);
+    .wrap{
+      @include display(flex);
+      @include align-items(center);
+      .breadcrumb-heading{
+        @include flex(1);
+        font-size: rem(36px);
+        text-transform: capitalize;
+        font-weight: 500;
+        position: relative;
+        padding-bottom: rem(20px);
+        &:before{
+            background: rgba(0, 0, 0, 0) url("../img/data/border_title.jpg") no-repeat center center;
+            bottom: 0;
+            content: "";
+            @include size(92px, 4px);
+            position: absolute;
+        }
+      }
+    }  
+}
+#product, #category, #cms{
+    .ps_breadcumb{
+        //display: block;
+        
+    }
+}
+
+.breadcrumb {
+  //margin-bottom: $spacer-y;
+  list-style: none;
+  background-color: $breadcrumb-bg;
+  @include border-radius($border-radius);
+  @include clearfix;
+  
+
+    &[data-depth="1"] {
+      display: none;
+    }
+  li{
+    display: inline;
+    a {
+        display: inline-block;
+        background: transparent;
+        @include rtl-padding-right(25px);
+        position: relative;
+        z-index: 2;
+        color: $theme-color-secondary;
+        &:after {
+          display: inline-block;
+          content: "";
+          position: absolute;
+          @include rtl-right(10px);
+          top: 17px;
+          @include size(6px,6px);
+          background: transparent;
+          @include rtl-border-right(1px solid $theme-color-primary);
+          border-top: 1px solid $theme-color-primary;
+          text-indent: -5000px;
+          z-index: -1;
+          @include rtl-rotate(45deg);
+        }
+        &:before{
+          display: none;
+        }
+        &:hover {
+          color: $theme-color;
+        }
+    }
+    &:last-child{
+        a{
+            color: $theme-color-primary;
+            &:after{
+                display: none;
+            }
+        }
+        
+    }
+  }
+
+}
+
+.breadcrumb-item {
+  float: left;
+
+  // The separator between breadcrumbs (by default, a forward-slash: "/")
+  + .breadcrumb-item::before {
+    display: inline-block; // Suppress underlining of the separator in modern browsers
+    padding-right: $breadcrumb-item-padding;
+    padding-left: $breadcrumb-item-padding;
+    color: $breadcrumb-divider-color;
+    content: "#{$breadcrumb-divider}";
+  }
+
+  // IE9-11 hack to properly handle hyperlink underlines for breadcrumbs built
+  // without `<ul>`s. The `::before` pseudo-element generates an element
+  // *within* the .breadcrumb-item and thereby inherits the `text-decoration`.
+  //
+  // To trick IE into suppressing the underline, we give the pseudo-element an
+  // underline and then immediately remove it.
+  + .breadcrumb-item:hover::before {
+    text-decoration: underline;
+  }
+  + .breadcrumb-item:hover::before {
+    text-decoration: none;
+  }
+
+  &.active {
+    color: $breadcrumb-active-color;
+  }
+}

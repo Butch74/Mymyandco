@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+</config>
+<tables>
+<table>psmegamenu</table>
+<table>psmegamenu_lang</table>
+<table>psmegamenu_shop</table>
+<table>psmegamenu_widgets</table>
+</tables>
+
+<queries></queries>
+
+</module>

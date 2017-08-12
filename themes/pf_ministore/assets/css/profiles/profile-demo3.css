@@ -1,0 +1,107 @@
+
+/* customize for .btn-primary, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary:disabled:focus, .btn-primary:disabled.focus, .btn-primary.disabled:hover, .btn-primary:disabled:hover, btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary.focus, .btn-outline-primary:active, .btn-outline-primary.active, .open > .btn-outline-primary.dropdown-toggle, .pagination .page-list li.current, .pagination .page-list li:hover, #to_top, .offcanvas-heading .btn, .block_newsletter .btn:hover, .owl-carousel-play:focus > .carousel-controls .carousel-control:focus, .owl-carousel-play:focus > .carousel-controls .carousel-control:hover, .owl-carousel-play:hover > .carousel-controls .carousel-control:focus, .owl-carousel-play:hover > .carousel-controls .carousel-control:hover, .blockcart .cart-products-count, .blockcart .ps_cartcontent .cart-buttons a */ 
+.btn-primary, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary:disabled:focus, .btn-primary:disabled.focus, .btn-primary.disabled:hover, .btn-primary:disabled:hover, btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary.focus, .btn-outline-primary:active, .btn-outline-primary.active, .open > .btn-outline-primary.dropdown-toggle, .pagination .page-list li.current, .pagination .page-list li:hover, #to_top, .offcanvas-heading .btn, .block_newsletter .btn:hover, .owl-carousel-play:focus > .carousel-controls .carousel-control:focus, .owl-carousel-play:focus > .carousel-controls .carousel-control:hover, .owl-carousel-play:hover > .carousel-controls .carousel-control:focus, .owl-carousel-play:hover > .carousel-controls .carousel-control:hover, .blockcart .cart-products-count, .blockcart .ps_cartcontent .cart-buttons a { 
+background-color:#f5872d 
+} 
+
+/* customize for a:hover, .blockcart .ps_cartcontent .car-product .cart-name a:hover, .pts-tab .nav-tabs li.nav-item a.active, .pts-tab .nav-tabs li.nav-item a:hover, .product-miniature .product-title a:hover, .grid .product-miniature .product-list-actions > div > div.add-to-cart button:hover, .grid .product-miniature .product-list-actions > div > div a:hover, .grid .product-miniature .product-list-actions > div > div button:hover, .list1 .product-miniature .right-block .quick-view a:hover, .header-default .header-nav .dropdown-menu li.current a, .header1 .dropdown-menu li.current a, .dropdown:hover .expand-more, .product-quantities, .product-quantity .input-group-btn-vertical .btn:hover, .scroll-box-arrows i:hover, .cart-summary-line .value, .cart-grid-body .card-block h1  */ 
+a:hover, .blockcart .ps_cartcontent .car-product .cart-name a:hover, .pts-tab .nav-tabs li.nav-item a.active, .pts-tab .nav-tabs li.nav-item a:hover, .product-miniature .product-title a:hover, .grid .product-miniature .product-list-actions > div > div.add-to-cart button:hover, .grid .product-miniature .product-list-actions > div > div a:hover, .grid .product-miniature .product-list-actions > div > div button:hover, .list1 .product-miniature .right-block .quick-view a:hover, .header-default .header-nav .dropdown-menu li.current a, .header1 .dropdown-menu li.current a, .dropdown:hover .expand-more, .product-quantities, .product-quantity .input-group-btn-vertical .btn:hover, .scroll-box-arrows i:hover, .cart-summary-line .value, .cart-grid-body .card-block h1  { 
+color:#f5872d 
+} 
+
+/* customize for .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary.focus, .owl-carousel-play:focus > .carousel-controls .carousel-control:focus, .owl-carousel-play:focus > .carousel-controls .carousel-control:hover, .owl-carousel-play:hover > .carousel-controls .carousel-control:focus, .owl-carousel-play:hover > .carousel-controls .carousel-control:hover, .all-product-link:hover, .list1 .product-miniature .right-block .quick-view a:hover, .product-images > li.thumb-container > .thumb.selected, .product-images > li.thumb-container > .thumb:hover, .scroll-box-arrows i:hover, .social-sharing li:hover, .form-control:focus  */ 
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary.focus, .owl-carousel-play:focus > .carousel-controls .carousel-control:focus, .owl-carousel-play:focus > .carousel-controls .carousel-control:hover, .owl-carousel-play:hover > .carousel-controls .carousel-control:focus, .owl-carousel-play:hover > .carousel-controls .carousel-control:hover, .all-product-link:hover, .list1 .product-miniature .right-block .quick-view a:hover, .product-images > li.thumb-container > .thumb.selected, .product-images > li.thumb-container > .thumb:hover, .scroll-box-arrows i:hover, .social-sharing li:hover, .form-control:focus  { 
+border-color:#f5872d 
+} 
+
+/* customize for body */ 
+body { 
+color:#818796 
+} 
+
+/* customize for body a */ 
+body a { 
+color:#424242 
+} 
+
+/* customize for #page .ps-desktop-megamenu .megamenu > li > a .menu-title:hover */ 
+#page .ps-desktop-megamenu .megamenu > li > a .menu-title:hover { 
+color:#f5872d 
+} 
+
+/* customize for #page .dropdown-menu li a:hover */ 
+#page .dropdown-menu li a:hover { 
+color:#f5872d 
+} 
+
+/* customize for .ps_breadcumb */ 
+.ps_breadcumb { 
+background-image:url(../../img/patterns/pattern2.png) 
+} 
+
+/* customize for .ps_breadcumb .breadcrumb li a */ 
+.ps_breadcumb .breadcrumb li a { 
+color:#00264b 
+} 
+
+/* customize for .ps_breadcumb .breadcrumb li a:hover */ 
+.ps_breadcumb .breadcrumb li a:hover { 
+color:#f5892a 
+} 
+
+/* customize for #page .footer-center */ 
+#page .footer-center { 
+color:#555555 
+} 
+
+/* customize for #page .footer-container .footer-center li a:hover */ 
+#page .footer-container .footer-center li a:hover { 
+color:#f5872d 
+} 
+
+/* customize for #page .pts-copyright */ 
+#page .pts-copyright { 
+color:#555555 
+} 
+
+/* customize for #page .product-miniature */ 
+#page .product-miniature { 
+background-color:#ffffff;
+border-color:#dedbde 
+} 
+
+/* customize for #page .grid .product-miniature .product-list-actions */ 
+#page .grid .product-miniature .product-list-actions { 
+background-color:#752116 
+} 
+
+/* customize for #page .product-miniature a:hover, .grid .product-miniature .product-title a:hover */ 
+#page .product-miniature a:hover, .grid .product-miniature .product-title a:hover { 
+color:#f5872d 
+} 
+
+/* customize for #page .sidebar .block .block_content  */ 
+#page .sidebar .block .block_content  { 
+background-color:#fafafa 
+} 
+
+/* customize for body, .pts-copyright, .product-price-and-shipping, .product-miniature .product-title a, .ps-desktop-megamenu .dropdown-menu, .product-price, .product-prices, .ps-desktop-megamenu .megamenu > li > a .menu-title, .megamenu .widget .title_block */ 
+body, .pts-copyright, .product-price-and-shipping, .product-miniature .product-title a, .ps-desktop-megamenu .dropdown-menu, .product-price, .product-prices, .ps-desktop-megamenu .megamenu > li > a .menu-title, .megamenu .widget .title_block { 
+font-family:Lato 
+} 
+
+/* customize for .block .title_block, .pts-tab .nav-tabs li.nav-item a, .ps_breadcumb, .title-sidebar, .pd-right .product-name-detail */ 
+.block .title_block, .pts-tab .nav-tabs li.nav-item a, .ps_breadcumb, .title-sidebar, .pd-right .product-name-detail { 
+font-family:Old Standard TT 
+} 
+
+/* customize for h2, h3, h4, h5, h6, h7 */ 
+h2, h3, h4, h5, h6, h7 { 
+font-family:inherit 
+} 
+
+/* customize for .row-offcanvas .sidebar .block .title-sidebar */ 
+.row-offcanvas .sidebar .block .title-sidebar { 
+font-family:Oswald;
+font-size:18px 
+} 
