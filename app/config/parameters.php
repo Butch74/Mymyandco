@@ -1,7 +1,6 @@
 <?php return array (
   'parameters' => 
   array (
-    // 'database_host' => 'eu-cdbr-west-01.cleardb.com',
     'database_host' => 'test' ,
     'database_port' => '3306',
     'database_name' => 'heroku_f44a5d22fcbcfcd',
