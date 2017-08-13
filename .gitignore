@@ -85,6 +85,8 @@ themes/default-bootstrap/modules/*/mails/*
 !app/test/cache/.gitkeep
 /app/config/parameters.yml
 /app/config/parameters.php
+/app/config/parameters_ovh.php
+/app/config/parameters_localhost.php
 /app/logs/*
 !app/logs/.gitkeep
 /app/phpunit.xml
