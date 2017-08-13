@@ -1,11 +1,11 @@
 <?php return array (
   'parameters' => 
   array (
-    'database_host' => 'localhost',
+    'database_host' => 'eu-cdbr-west-01.cleardb.com',
     'database_port' => '3306',
-    'database_name' => 'mimi',
-    'database_user' => 'root',
-    'database_password' => '',
+    'database_name' => 'heroku_f44a5d22fcbcfcd',
+    'database_user' => 'b571be7239a2e1',
+    'database_password' => '61c711a0',
     'database_prefix' => 'mod317_',
     'database_engine' => 'InnoDB',
     'mailer_transport' => 'smtp',
